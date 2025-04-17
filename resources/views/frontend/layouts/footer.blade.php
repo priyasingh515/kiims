@@ -73,13 +73,14 @@
                     <ul class="address-widget">
                         <li>
                             <i class="flaticon-location"></i>
-                            <div class="desc">503 Old Buffalo Street Northwest #205 New York-3087</div>
+                            <div class="desc">Head office adress - Uttam Nagar West New Delhi near metro pillar number 683</div>
                         </li>
                         <li>
                             <i class="flaticon-call"></i>
                             <div class="desc">
-                                <a href="tel:(123)-456-7890">(123)-456-7890</a> , 
-                                <a href="tel:(123)-456-7890">(123)-456-7890</a>
+                                <a href="tel:8236049275">8236049275</a> 
+                                <a href="tel:9343420572">9343420572</a>
+                                <a href="tel:9955224626">9955224626</a>
                             </div>
                         </li>
                         <li>
@@ -106,9 +107,12 @@
                     <ul class="site-map">
                         <li><a href="{{'/ot'}}">O.T</a></li>
                         <li><a href="{{'dmit'}}">D.M.I.T</a></li>
+                        <li><a href="{{ url('dmlt') }}">D.M.L.T</a></li>
+                        <li><a href="{{ url('bmlt') }}">B.M.L.T</a></li>
+                        <li><a href="{{ url('cms') }}">CMS & ED</a></li>
                         <li><a href="{{'emt'}}">E.M.T</a></li>
                         <li><a href="{{'/ctMR'}}">CT/MRI/X-RAY/ICU</a></li>
-                        <li><a href="{{'/opthemic'}}">OPTHEMIC</a></li>
+                        <li><a href="{{'/opthemic'}}">OPHTHALMIC</a></li>
                         <li><a href="{{'/drasser'}}">DRASSER</a></li>
                     </ul>
                 </div>

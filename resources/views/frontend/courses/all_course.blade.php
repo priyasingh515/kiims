@@ -88,7 +88,7 @@
                         </div>
                         <div class="content-part">
                             
-                            <h3 class="title"><a href="{{url('opthemic')}}">OPTHEMIC</a></h3>
+                            <h3 class="title"><a href="{{url('opthemic')}}">OPHTHALMIC</a></h3>
                             <div class="bottom-part">
                                
                                 {{-- <div class="btn-part">

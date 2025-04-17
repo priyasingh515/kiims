@@ -8,10 +8,10 @@
                 <img src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
             </div>
             <div class="breadcrumbs-text white-color">
-                <h1 class="page-title">OPHTHALMIC</h1>
+                <h1 class="page-title">B.M.L.T</h1>
                 <ul>
                     <li>
-                        <a class="active" href="{{url('/')}}">Home</a>
+                        <a class="active" href="index.html">Home</a>
                     </li>
                     <li>Course Details</li>
                 </ul>
@@ -50,7 +50,7 @@
                                         <!-- Cource Overview -->
                                         <div class="course-overview">
                                             <div class="inner-box">
-                                                <h4>OPHTHALMIC</h4>
+                                                <h4>B.M.L.T</h4>
                                                 <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
                                                 {{-- <p>Eleifend euismod pellentesque vel Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p> --}}
                                                 {{-- <ul class="student-list">
@@ -444,7 +444,7 @@
                         <div class="inner-column">
                         <!-- Video Box -->
                             <div class="intro-video media-icon orange-color2">
-                                <img class="video-img" src="assets/images/about/opthalmic.jpg" alt="Video Image">
+                                <img class="video-img" src="assets/images/about/ct.jpg" alt="Video Image">
                                 
                             </div>
                             <!-- End Video Box -->
@@ -454,7 +454,7 @@
                                     <li class="duration-feature">
                                         <i class="fa fa-clock-o"></i>
                                         <span class="label">Duration</span>
-                                        <span class="value">3 year </span>
+                                        <span class="value">2 year </span>
                                     </li>
                                     <li class="lectures-feature">
                                         <i class="fa fa-files-o"></i>

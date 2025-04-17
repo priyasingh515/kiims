@@ -88,9 +88,12 @@
                                                 <li><a href="{{ url('allCourse') }}">All Courses</a></li>
                                                 <li><a href="{{ url('ot') }}">O.T</a></li>
                                                 <li><a href="{{ url('dmit') }}">D.M.I.T</a></li>
+                                                <li><a href="{{ url('dmlt') }}">D.M.L.T</a></li>
+                                                <li><a href="{{ url('bmlt') }}">B.M.L.T</a></li>
+                                                <li><a href="{{ url('cms') }}">CMS & ED</a></li>
                                                 <li><a href="{{ url('ctMR') }}">CT/MRI/X-RAY/ICU</a></li>
                                                 <li><a href="{{ url('emt') }}">E.M.T</a></li>
-                                                <li><a href="{{ url('opthemic') }}">OPTHEMIC</a></li>
+                                                <li><a href="{{ url('opthemic') }}">OPHTHALMIC</a></li>
                                                 <li><a href="{{ url('dresser') }}">DRASSER</a></li>
                                             </ul>
                                         </li>

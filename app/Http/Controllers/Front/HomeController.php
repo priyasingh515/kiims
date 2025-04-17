@@ -62,6 +62,15 @@ class HomeController extends Controller
     public function dresser(){
         return view('frontend.courses.dresser');
     }
+    public function BMLT(){
+        return view('frontend.courses.bmlt');
+    }
+    public function Dmlt(){
+        return view('frontend.courses.dmlt');
+    }
+    public function Cms(){
+        return view('frontend.courses.cms');
+    }
 
     // public function registerStore(Request $request)
     // {
