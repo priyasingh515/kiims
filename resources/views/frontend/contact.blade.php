@@ -5,7 +5,7 @@
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs breadcrumbs-overlay">
             <div class="breadcrumbs-img">
-                <img src="/public/assets/images/breadcrumbs/5.jpg" alt="Breadcrumbs Image">
+                <img src="/assets/images/breadcrumbs/5.jpg" alt="Breadcrumbs Image">
             </div>
             <div class="breadcrumbs-text white-color padding">
                 <h1 class="page-title white-color">Contact Us</h1>
@@ -47,7 +47,7 @@
                     <div class="col-lg-4 col-md-12-4 lg-pl-0 sm-mb-30 md-mb-30">
                         <div class="address-item">
                             <div class="icon-part">
-                                <img src="/public/assets/images/contact/icon/1.png" alt="">
+                                <img src="/assets/images/contact/icon/1.png" alt="">
                             </div>
                             <div class="address-text">
                                 <span class="label">Address</span>
@@ -58,7 +58,7 @@
                     <div class="col-lg-4 col-md-12 lg-pl-0 sm-mb-30 md-mb-30">
                         <div class="address-item">
                             <div class="icon-part">
-                                <img src="/public/assets/images/contact/icon/2.png" alt="">
+                                <img src="/assets/images/contact/icon/2.png" alt="">
                             </div>
                             <div class="address-text">
                                 <span class="label">Email Address</span>
@@ -69,7 +69,7 @@
                     <div class="col-lg-4 col-md-12 lg-pl-0 sm-mb-30">
                         <div class="address-item">
                             <div class="icon-part">
-                                <img src="/public/assets/images/contact/icon/3.png" alt="">
+                                <img src="/assets/images/contact/icon/3.png" alt="">
                             </div>
                             <div class="address-text">
                                 <span class="label">Phone Number</span>

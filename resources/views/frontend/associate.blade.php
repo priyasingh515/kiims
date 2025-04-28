@@ -4,7 +4,7 @@
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs breadcrumbs-overlay ">
             <div class="breadcrumbs-img">
-                <img src="/public/assets/images/breadcrumbs/6.jpg" alt="Breadcrumbs Image">
+                <img src="/assets/images/breadcrumbs/6.jpg" alt="Breadcrumbs Image">
             </div>
             <div class="breadcrumbs-text white-color padding">
                 <h1 class="page-title white-color">Association Form</h1>

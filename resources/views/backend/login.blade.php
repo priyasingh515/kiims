@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KIMS Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/css/vendor.bundle.base.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/css/style.css')}}">
-    <link rel="shortcut icon" href="{{asset('/public/adminasset/images/favicon.png')}}" />
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/css/style.css')}}">
+    <link rel="shortcut icon" href="{{asset('/adminasset/images/favicon.png')}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   </head>
@@ -64,10 +64,10 @@
       <!-- page-body-wrapper ends -->
     </div>
   
-    <script src="{{asset('/public/adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
+    <script src="{{asset('/adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
 
-    <script src="{{asset('/public/adminasset/js/off-canvas.js')}}"></script>
-    <script src="{{asset('/public/adminasset/js/misc.js')}}"></script>
+    <script src="{{asset('/adminasset/js/off-canvas.js')}}"></script>
+    <script src="{{asset('/adminasset/js/misc.js')}}"></script>
     <script>
         function refreshCaptcha() {
             document.getElementById('captcha-img').src = "{{ url('/captcha') }}?" + Math.random();

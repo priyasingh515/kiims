@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KIIMS Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/css/vendor.bundle.base.css')}}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/daterangepicker/daterangepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/chartist/chartist.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/vendors/chartist/chartist.min.css')}}">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="{{asset('/public/adminasset/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/adminasset/css/style.css')}}">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="{{asset('/public/adminasset/images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('/adminasset/images/favicon.png')}}">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   </head>
@@ -41,9 +41,9 @@
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="navbar-brand-wrapper d-flex align-items-center">
           <a class="navbar-brand brand-logo" href="">
-            <!-- <img src="{{asset('/public/adminasset/images/logo.svg')}}" alt="logo" class="logo-dark"> -->
+            <!-- <img src="{{asset('/adminasset/images/logo.svg')}}" alt="logo" class="logo-dark"> -->
           </a>
-          <!-- <a class="navbar-brand brand-logo-mini" href=""><img src="{{asset('/public/adminasset/images/logo-mini.svg')}}" alt="logo"></a> -->
+          <!-- <a class="navbar-brand brand-logo-mini" href=""><img src="{{asset('/adminasset/images/logo-mini.svg')}}" alt="logo"></a> -->
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
           <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome {{Auth::User()->name}} 

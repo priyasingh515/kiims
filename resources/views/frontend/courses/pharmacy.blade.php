@@ -6,7 +6,7 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">Pharmacy Course</h1>
@@ -151,7 +151,7 @@
                     <div class="inner-column">
                         <!-- Video Box -->
                         <div class="intro-video media-icon orange-color2">
-                            <img class="video-img" src="/public/assets/images/courses/pharmacy.jpg" alt="Video Image">
+                            <img class="video-img" src="/assets/images/courses/pharmacy.jpg" alt="Video Image">
                         </div>
                         <!-- End Video Box -->
                         <!-- <div class="course-features-info">

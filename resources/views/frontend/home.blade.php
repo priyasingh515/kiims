@@ -15,7 +15,7 @@
                     {{-- <div class="offset-lg-6"></div> --}}
                     <div class="col-lg-9 lg-pl-0">
                         <div class="banner-line-shape js-tilt">
-                            <img src="{{asset('/public/assets/images/banner/banner-line.png')}}" alt="Banner Circle Shape">
+                            <img src="{{asset('/assets/images/banner/banner-line.png')}}" alt="Banner Circle Shape">
                         </div>
                          <div class="banner-content pb-13">
                             <h1 class="banner-title white-color wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">
@@ -27,12 +27,12 @@
                             </div> --}}
                         </div> 
                         <div class="banner-circle-shape js-tilt">
-                            <img src="{{asset('/public/assets/images/banner/banner-circle.png')}}" alt="Banner Circle Shape">
+                            <img src="{{asset('/assets/images/banner/banner-circle.png')}}" alt="Banner Circle Shape">
                         </div>
                     </div>
                 </div> 
                 <div class="banner-dots-shape js-tilt">
-                    <img src="{{asset('/public/assets/images/banner/banner-dots.png')}}" alt="Banner Dots Shape">
+                    <img src="{{asset('/assets/images/banner/banner-dots.png')}}" alt="Banner Dots Shape">
                 </div>                   
             </div>
         </div>
@@ -43,8 +43,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-7 pl-60 order-last md-pl-15 md-mb-60">
                         <div class="img-part js-tilt">
-                            <img class="" src="{{asset('/public/assets/images/photos/image1.jpeg')}}" alt="">
-                            <img class="shape top-center animated rotate infinite" src="{{asset('/public/assets/images/about/image-center-circle.png')}}" alt="Cirle Shape Img">
+                            <img class="" src="{{asset('/assets/images/photos/image1.jpeg')}}" alt="">
+                            <img class="shape top-center animated rotate infinite" src="{{asset('/assets/images/about/image-center-circle.png')}}" alt="Cirle Shape Img">
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -81,7 +81,7 @@
                 <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="{{asset('/public/assets/images/about/ot.jpeg')}}" alt="">
+                            <img src="{{asset('/assets/images/about/ot.jpeg')}}" alt="">
                         </div>
                         <div class="content-part">
                           
@@ -92,7 +92,7 @@
                     
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/about/ct.jpg" alt="">
+                            <img src="/assets/images/about/ct.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -104,7 +104,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/courses/dmlt.jpg" alt="">
+                            <img src="/assets/images/courses/dmlt.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -118,7 +118,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/about/opthalmic.jpg" alt="">
+                            <img src="/assets/images/about/opthalmic.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -130,7 +130,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/about/dresser.jpg" alt="">
+                            <img src="/assets/images/about/dresser.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -142,7 +142,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/courses/anm.webp" alt="">
+                            <img src="/assets/images/courses/anm.webp" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -153,7 +153,7 @@
 
                           <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/courses/dmlt.jpg" alt="">
+                            <img src="/assets/images/courses/dmlt.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -164,7 +164,7 @@
 
                           <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/courses/ecg.jpg" alt="">
+                            <img src="/assets/images/courses/ecg.jpg" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -176,7 +176,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/public/assets/images/courses/gnm.webp" alt="">
+                            <img src="/assets/images/courses/gnm.webp" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -197,16 +197,16 @@
         {{-- <div class="rs-about video-style pt-120 pb-100 md-pt-90 md-pb-70">
             <div class="container relative">
                 <div class="icon-shape js-tilt">
-                    <img class="shape" src="/public/assets/images/about/icon-shape.png" alt="Icon Shape">
+                    <img class="shape" src="/assets/images/about/icon-shape.png" alt="Icon Shape">
                 </div>
                 <div class="row">                        
                     <div class="col-lg-6">
                         <div class="img-part media-icon">
-                            <img class="video-img" src="/public/assets/images/about/about-video-bg2.png" alt="Video Image">
+                            <img class="video-img" src="/assets/images/about/about-video-bg2.png" alt="Video Image">
                             <a class="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
                                 <i class="fa fa-play"></i>
                             </a>
-                            <img class="dot-shape js-tilt" src="/public/assets/images/about/dot-shape.png" alt="Shape">
+                            <img class="dot-shape js-tilt" src="/assets/images/about/dot-shape.png" alt="Shape">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -268,7 +268,7 @@
                 </div>
                 <div class="rs-carousel owl-carousel nav-style2" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/courses/team_1.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/courses/team_1.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 "><a class="primary-text-blue-color" href="">DR.R.K. CHAUHAN</a></h4>
                             <!-- <span class="designation">Professor</span>
@@ -281,7 +281,7 @@
                         </div> 
                     </div>
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/courses/team_2.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/courses/team_2.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 "><a class="primary-text-blue-color" href="">AMAR KUMAR MANDAL</a></h4>
                             <!-- <span class="designation">Professor</span>
@@ -294,7 +294,7 @@
                         </div> 
                     </div>
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/courses/team_3.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/courses/team_3.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 "><a href="" class="primary-text-blue-color">DR. PRITI VERMA</a></h4>
                             <!-- <span class="designation">Professor</span>
@@ -322,48 +322,48 @@
                 </div>
                 <div class="rs-carousel owl-carousel nav-style2" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/board/member5.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/board/member5.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >DR. Dipak Dubey ( MD Pathologist )</a></h4>
                         </div> 
                     </div>
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/board/member1.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/board/member1.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >Dr. Rohit Agrwal ( MD Medicine)</a></h4>
                            
                         </div> 
                     </div>
                     <div class="team-item shadow">
-                    <img src="/public/assets/images/board/member2.jpg" alt="" style="height: 350px;object-fit:cover;">
+                    <img src="/assets/images/board/member2.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
                                 <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >Dr. Sandip Tiwari ( MBBS.MS)</a></h4>
                            
                         </div> 
                     </div>
                     <div class="team-item shadow">
-                        <img src="/public/assets/images/board/member4.jpg" alt="" style="height: 350px;object-fit:cover;">
+                        <img src="/assets/images/board/member4.jpg" alt="" style="height: 350px;object-fit:cover;">
                                 <div class="">
                                     <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >DR. Akash Sharma ( Orthopeadics Surgen )</a></h4>
                                
                             </div> 
                         </div>
                         <div class="team-item shadow">
-                            <img src="/public/assets/images/board/member6.jpg" alt="" style="height: 350px;object-fit:cover;">
+                            <img src="/assets/images/board/member6.jpg" alt="" style="height: 350px;object-fit:cover;">
                                     <div class="">
                                         <h4 class="name mt-2 primary-text-blue-color"><a class="primary-text-blue-color"  href="">Dr. Anupam Chaudhry ( DM Cardiologist )</a></h4>
                                    
                                 </div> 
                             </div>
                             <div class="team-item shadow">
-                                <img src="/public/assets/images/board/member7.jpg" alt="" style="height: 350px;object-fit:cover;">
+                                <img src="/assets/images/board/member7.jpg" alt="" style="height: 350px;object-fit:cover;">
                                         <div class="">
                                             <h4 class="primary-text-blue-color name mt-2"><a  class="primary-text-blue-color" href="">डॉ अरविंद पंडित (state devlopment officer)</a></h4>
                                        
                                     </div> 
                                 </div>
                                 <div class="team-item shadow">
-                                    <img src="/public/assets/images/board/member8.jpg" alt="" style="height: 350px;object-fit:cover;">
+                                    <img src="/assets/images/board/member8.jpg" alt="" style="height: 350px;object-fit:cover;">
                                             <div class="">
                                                 <h4 class="name primary-text-blue-color mt-2"><a href="" class="primary-text-blue-color" >
                                                     श्री शंभु सिंह ( state public relation officer)
@@ -372,7 +372,7 @@
                                         </div> 
                                     </div>
                                     <div class="team-item shadow">
-                                        <img src="/public/assets/images/board/member9.jpg" alt="" style="height: 350px;object-fit:cover;">
+                                        <img src="/assets/images/board/member9.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                 <div class="">
                                                     <h4 class="primary-text-blue-color name mt-2"><a class="primary-text-blue-color"  href="">
                                                         डॉ मेहता जी ( state coardinator)
@@ -381,7 +381,7 @@
                                             </div> 
                                         </div>
                                         <div class="team-item shadow">
-                                            <img src="/public/assets/images/board/member10.jpg" alt="" style="height: 350px;object-fit:cover;">
+                                            <img src="/assets/images/board/member10.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                     <div class="">
                                                         <h4 class="primary-text-blue-color name mt-2"><a class="primary-text-blue-color"  href="">
                                                             बलिराम जी ( district coardinator)
@@ -390,7 +390,7 @@
                                                 </div> 
                                             </div>
                                             <div class="team-item shadow">
-                                                <img src="/public/assets/images/board/member11.jpg" alt="" style="height: 350px;object-fit:cover;">
+                                                <img src="/assets/images/board/member11.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                         <div class="">
                                                             <h4 class="primary-text-blue-color name mt-2"><a href="" class="primary-text-blue-color" >
                                                                 श्री दीपेंद्र जी ( सलाहकार)
@@ -405,7 +405,7 @@
         <!-- CTA Section Start -->
         <div class="rs-cta">
             <div class="cta-img">
-                <img src="/public/assets/images/cta/cta-bg.jpg" alt="">
+                <img src="/assets/images/cta/cta-bg.jpg" alt="">
             </div>
             <div class="cta-content text-center">
                 <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
@@ -442,7 +442,7 @@
         <div class="rs-testimonial style4 pt-100 pb-100 md-pt-70 md-pb-70">
             <div class="container relative">
                 <div class="left-top-shape js-tilt">
-                    <img src="/public/assets/images/shape/circle-shape.png" alt="">
+                    <img src="/assets/images/shape/circle-shape.png" alt="">
                 </div>
                 <div class="sec-title mb-60 md-mb-30 text-center">
                     <div class="sub-title primary primary-text-red-color">Student Reviews</div>
@@ -480,7 +480,7 @@
                         <div class="row no-gutter">
                             {{-- <div class="col-md-4">
                                 <div class="user-img">
-                                    <img src="/public/assets/images/testimonial/style4/1.png" alt="">
+                                    <img src="/assets/images/testimonial/style4/1.png" alt="">
                                 </div>
                             </div> --}}
                             <div class="col-md-8">
@@ -501,7 +501,7 @@
                         <div class="row no-gutter">
                             {{-- <div class="col-md-4">
                                 <div class="user-img">
-                                    <img src="/public/assets/images/testimonial/style4/2.png" alt="">
+                                    <img src="/assets/images/testimonial/style4/2.png" alt="">
                                 </div>
                             </div> --}}
                             <div class="col-md-8">
@@ -522,7 +522,7 @@
                         <div class="row no-gutter">
                             {{-- <div class="col-md-4">
                                 <div class="user-img">
-                                    <img src="/public/assets/images/testimonial/style4/3.png" alt="">
+                                    <img src="/assets/images/testimonial/style4/3.png" alt="">
                                 </div>
                             </div> --}}
                             <div class="col-md-8">
@@ -542,7 +542,7 @@
                         <div class="row no-gutter">
                             {{-- <div class="col-md-4">
                                 <div class="user-img">
-                                    <img src="/public/assets/images/testimonial/style4/4.png" alt="">
+                                    <img src="/assets/images/testimonial/style4/4.png" alt="">
                                 </div>
                             </div> --}}
                             <div class="col-md-8">

@@ -5,7 +5,7 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="/public/assets/images/breadcrumbs/4.jpg" alt="Breadcrumbs Image">
+            <img src="/assets/images/breadcrumbs/4.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">Gallery</h1>
@@ -26,7 +26,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image1.jpeg"><img src="/public/assets/images/photos/image1.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image1.jpeg"><img src="/assets/images/photos/image1.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                             Group Study Time
@@ -36,7 +36,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image2.jpeg"><img src="/public/assets/images/photos/image2.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image2.jpeg"><img src="/assets/images/photos/image2.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                             Examination Hall
@@ -46,7 +46,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image3.jpeg"><img src="/public/assets/images/photos/image3.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image3.jpeg"><img src="/assets/images/photos/image3.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                             Final Year Study
@@ -56,7 +56,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image4.jpeg"><img src="/public/assets/images/photos/image4.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image4.jpeg"><img src="/assets/images/photos/image4.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                             Online Study
@@ -66,7 +66,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image5.jpeg"><img src="/public/assets/images/photos/image5.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image5.jpeg"><img src="/assets/images/photos/image5.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                            Group Solution
@@ -76,7 +76,7 @@
                 <div class="col-lg-4 mb-30 col-md-6">
                     <div class="gallery-item h-100">
                         <div class="gallery-img h-100">
-                            <a class="image-popup" href="/public/assets/images/photos/image6.jpeg"><img src="/public/assets/images/photos/image6.jpeg" class="h-100" alt=""></a>
+                            <a class="image-popup" href="/assets/images/photos/image6.jpeg"><img src="/assets/images/photos/image6.jpeg" class="h-100" alt=""></a>
                         </div>
                         {{-- <div class="title">
                            New Teacher

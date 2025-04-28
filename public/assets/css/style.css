@@ -4091,7 +4091,7 @@ body .modal-backdrop {
 }
 .rs-banner.style4 {
  /* background: url(/public/assets/images/banner/home4.jpg); */
-  background: url(/public/assets/images/slider_image.jpg); 
+  background: url(/assets/images/slider_image.jpg); 
   background-size: cover;
   background-position: center;
   min-height: 600px !important;

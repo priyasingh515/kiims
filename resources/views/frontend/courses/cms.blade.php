@@ -8,7 +8,7 @@
 
 <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">CMS & ED (Community Medical Services & Essential Drugs)</h1>
@@ -115,7 +115,7 @@
                     <div class="inner-column">
                         <!-- Video Box -->
                         <div class="intro-video media-icon orange-color2">
-                            <img class="video-img" src="/public/assets/images/courses/CMS-ED-13.png" alt="CMS & ED Course Image">
+                            <img class="video-img" src="/assets/images/courses/CMS-ED-13.png" alt="CMS & ED Course Image">
                         </div>
                         <!-- End Video Box -->
                         <div class="course-features-info">

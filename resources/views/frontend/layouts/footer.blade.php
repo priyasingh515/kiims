@@ -224,7 +224,7 @@
             <div class="row y-middle">
                 <div class="col-lg-4 md-mb-20">
                     <div class="footer-logo md-text-center">
-                        <a href=""><img src="/public/assets/images/logo.jpg" alt="KIMS Logo" class="footer_logo"></a>
+                        <a href=""><img src="/assets/images/logo.jpg" alt="KIMS Logo" class="footer_logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 md-mb-20">
@@ -273,41 +273,41 @@
 <!-- Search Modal End -->
 
 <!-- modernizr js -->
-<script src="{{asset('/public/assets/js/modernizr-2.8.3.min.js')}}"></script>
+<script src="{{asset('/assets/js/modernizr-2.8.3.min.js')}}"></script>
 <!-- jquery latest version -->
-<script src="{{asset('/public/assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('/assets/js/jquery.min.js')}}"></script>
 <!-- Bootstrap v4.4.1 js -->
-<script src="{{asset('/public/assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('/assets/js/bootstrap.min.js')}}"></script>
 <!-- Menu js -->
-<script src="{{asset('/public/assets/js/rsmenu-main.js')}}"></script> 
+<script src="{{asset('/assets/js/rsmenu-main.js')}}"></script> 
 <!-- op nav js -->
-<script src="{{asset('/public/assets/js/jquery.nav.js')}}"></script>
+<script src="{{asset('/assets/js/jquery.nav.js')}}"></script>
 <!-- owl.carousel js -->
-<script src="{{asset('/public/assets/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('/assets/js/owl.carousel.min.js')}}"></script>
 <!-- Slick js -->
-<script src="{{asset('/public/assets/js/slick.min.js')}}"></script>
+<script src="{{asset('/assets/js/slick.min.js')}}"></script>
 <!-- isotope.pkgd.min js -->
-<script src="{{asset('/public/assets/js/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('/assets/js/isotope.pkgd.min.js')}}"></script>
 <!-- imagesloaded.pkgd.min js -->
-<script src="{{asset('/public/assets/js/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{asset('/assets/js/imagesloaded.pkgd.min.js')}}"></script>
 <!-- wow js -->
-<script src="{{asset('/public/assets/js/wow.min.js')}}"></script>
+<script src="{{asset('/assets/js/wow.min.js')}}"></script>
 <!-- Skill bar js -->
-<script src="{{asset('/public/assets/js/skill.bars.jquery.js')}}"></script>
-<script src="{{asset('/public/assets/js/jquery.counterup.min.js')}}"></script>        
+<script src="{{asset('/assets/js/skill.bars.jquery.js')}}"></script>
+<script src="{{asset('/assets/js/jquery.counterup.min.js')}}"></script>        
  <!-- counter top js -->
-<script src="{{asset('/public/assets/js/waypoints.min.js')}}"></script>
+<script src="{{asset('/assets/js/waypoints.min.js')}}"></script>
 <!-- video js -->
-<script src="{{asset('/public/assets/js/jquery.mb.YTPlayer.min.js')}}"></script>
+<script src="{{asset('/assets/js/jquery.mb.YTPlayer.min.js')}}"></script>
 <!-- magnific popup js -->
-<script src="{{asset('/public/assets/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('/assets/js/jquery.magnific-popup.min.js')}}"></script>
 <!-- tilt js -->
-<script src="{{asset('/public/assets/js/tilt.jquery.min.js')}}"></script>      
+<script src="{{asset('/assets/js/tilt.jquery.min.js')}}"></script>      
 <!-- plugins js -->
-<script src="{{{asset('/public/assets/js/plugins.js')}}}"></script>
+<script src="{{{asset('/assets/js/plugins.js')}}}"></script>
 <!-- contact form js -->
-<script src="{{asset('/public/assets/js/contact.form.js')}}"></script>
+<script src="{{asset('/assets/js/contact.form.js')}}"></script>
 <!-- main js -->
-<script src="{{asset('/public/assets/js/main.js')}}"></script>
+<script src="{{asset('/assets/js/main.js')}}"></script>
 </body>
 </html>

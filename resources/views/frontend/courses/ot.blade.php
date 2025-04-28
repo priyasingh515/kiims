@@ -5,7 +5,7 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">Diploma in Operation Theatre Technology
@@ -237,7 +237,7 @@
                     <div class="inner-column">
                         <!-- Video Box -->
                         <div class="intro-video media-icon orange-color2">
-                            <img class="video-img" src="/public/assets/images/about/ot.jpeg" alt="Video Image">
+                            <img class="video-img" src="/assets/images/about/ot.jpeg" alt="Video Image">
 
                         </div>
                         <!-- End Video Box -->

@@ -13,21 +13,21 @@
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->
-<script src="{{asset('/public/adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
+<script src="{{asset('/adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
 <!-- endinject -->
 <!-- Plugin js for this page -->
-<script src="{{asset('/public/adminasset/vendors/chart.js/Chart.min.js')}}"></script>
-<script src="{{asset('/public/adminasset/vendors/moment/moment.min.js')}}"></script>
-<script src="{{asset('/public/adminasset/vendors/daterangepicker/daterangepicker.js')}}"></script>
-<script src="{{asset('/public/adminasset/vendors/chartist/chartist.min.js')}}"></script>
-<script src="{{asset('/public/adminasset/js/jquery.cookie.js')}}" type="text/javascript"></script>
+<script src="{{asset('/adminasset/vendors/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('/adminasset/vendors/moment/moment.min.js')}}"></script>
+<script src="{{asset('/adminasset/vendors/daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{asset('/adminasset/vendors/chartist/chartist.min.js')}}"></script>
+<script src="{{asset('/adminasset/js/jquery.cookie.js')}}" type="text/javascript"></script>
 <!-- End plugin js for this page -->
 <!-- inject:js -->
-<script src="{{asset('/public/adminasset/js/off-canvas.js')}}"></script>
-<script src="{{asset('/public/adminasset/js/misc.js')}}"></script>
+<script src="{{asset('/adminasset/js/off-canvas.js')}}"></script>
+<script src="{{asset('/adminasset/js/misc.js')}}"></script>
 <!-- endinject -->
 <!-- Custom js for this page -->
-<script src="{{asset('/public/adminasset/js/dashboard.js')}}"></script>
+<script src="{{asset('/adminasset/js/dashboard.js')}}"></script>
 <!-- End custom js for this page -->
 </body>
 </html>

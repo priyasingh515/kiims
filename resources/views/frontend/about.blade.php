@@ -4,7 +4,7 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">About Us</h1>
@@ -24,7 +24,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
                     <div class="img-part">
-                        <img class="" src="{{asset('/public/assets/images/photos/image6.jpeg')}}">
+                        <img class="" src="{{asset('/assets/images/photos/image6.jpeg')}}">
                     </div>
                 </div>
                 <div class="col-lg-6 pr-70 md-pr-15">
@@ -82,7 +82,7 @@
                 <div class="col-md-4 sm-mb-30">
                     <div class="counter-item text-center">
                         <div class="counter-bg">
-                            <img src="/public/assets/images/counter/bg1.png" alt="Counter Image">
+                            <img src="/assets/images/counter/bg1.png" alt="Counter Image">
                         </div>
                         <div class="counter-text">
                             <h2 class="rs-count kplus">2</h2>
@@ -93,7 +93,7 @@
                 <div class="col-md-4 sm-mb-30">
                     <div class="counter-item text-center">
                         <div class="counter-bg">
-                            <img src="/public/assets/images/counter/bg2.png" alt="Counter Image">
+                            <img src="/assets/images/counter/bg2.png" alt="Counter Image">
                         </div>
                         <div class="counter-text">
                             <h2 class="rs-count">3.50</h2>
@@ -104,7 +104,7 @@
                 <div class="col-md-4">
                     <div class="counter-item text-center">
                         <div class="counter-bg">
-                            <img src="/public/assets/images/counter/bg3.png" alt="Counter Image">
+                            <img src="/assets/images/counter/bg3.png" alt="Counter Image">
                         </div>
                         <div class="counter-text">
                             <h2 class="rs-count percent">95</h2>
@@ -123,7 +123,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 padding-0 md-pl-15 md-pr-15 md-mb-30">
                     <div class="img-part">
-                        <img class="" src="/public/assets/images/photos/image2.jpeg" alt="About Image">
+                        <img class="" src="/assets/images/photos/image2.jpeg" alt="About Image">
                     </div>
                     <ul class="nav nav-tabs histort-part" id="myTab" role="tablist">
                         <li class="nav-item tab-btns single-history">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <!-- <div class="tab-img">
-                                    <img class="" src="/public/assets/images/about/tab1.jpg" alt="Tab Image">
+                                    <img class="" src="/assets/images/about/tab1.jpg" alt="Tab Image">
                                 </div> -->
                         </div>
                         <div class="tab-pane fade" id="about-mission" role="tabpanel" aria-labelledby="about-mission-tab">
@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                             <!-- <div class="tab-img">
-                                    <img class="" src="/public/assets/images/about/tab2.jpg" alt="Tab Image">
+                                    <img class="" src="/assets/images/about/tab2.jpg" alt="Tab Image">
                                 </div> -->
                         </div>
                         <div class="tab-pane fade" id="about-admin" role="tabpanel" aria-labelledby="about-admin-tab">
@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                             <!-- <div class="tab-img">
-                                    <img class="" src="/public/assets/images/about/tab3.jpg" alt="Tab Image">
+                                    <img class="" src="/assets/images/about/tab3.jpg" alt="Tab Image">
                                 </div> -->
                         </div>
                     </div>
@@ -220,7 +220,7 @@
             </div>
             <div class="rs-carousel owl-carousel nav-style2 orange-color" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
                 <div class="team-item">
-                    <img src="/public/assets/images/team/1.jpg" alt="">
+                    <img src="/assets/images/team/1.jpg" alt="">
                     <div class="content-part">
                         <h4 class="name"><a href="team-single.html">Vaibhav Rai</a></h4>
                         <span class="designation">Professor</span>
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <div class="team-item">
-                    <img src="/public/assets/images/team/2.jpg" alt="">
+                    <img src="/assets/images/team/2.jpg" alt="">
                     <div class="content-part">
                         <h4 class="name"><a href="team-single.html">Leena Yadav</a></h4>
                         <span class="designation">Professor</span>
@@ -246,7 +246,7 @@
                     </div>
                 </div>
                 <div class="team-item">
-                    <img src="/public/assets/images/team/3.jpg" alt="">
+                    <img src="/assets/images/team/3.jpg" alt="">
                     <div class="content-part">
                         <h4 class="name"><a href="team-single.html">Ishwar Nishad</a></h4>
                         <span class="designation">Professor</span>
@@ -269,7 +269,7 @@
                 <div class="row">
                     <div class="col-lg-5 pr-90 md-pr-15 md-mb-30">
                         <div class="donation-part">
-                            <img src="/public/assets/images/donor/1.jpg" alt="">
+                            <img src="/assets/images/donor/1.jpg" alt="">
                             <h3 class="title mb-10">Donation helps us</h3>
                             <div class="desc mb-38">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed eius to mod tempors incididunt ut labore et dolore magna this aliqua  enims ad minim.</div>
                             <div class="btn-part">
@@ -280,7 +280,7 @@
                     <div class="col-lg-7 lg-pl-0 ml--15 md-ml-0">
                         <div class="testi-wrap mb-50">
                             <div class="img-part">
-                                <img src="/public/assets/images/testimonial/style2/1.jpg" alt="">
+                                <img src="/assets/images/testimonial/style2/1.jpg" alt="">
                             </div>
                             <div class="content-part new-content pt-12">
                                 <div class="desc">Education is the passport to the future for tomorrow belongs to those who prepare for it today</div>
@@ -292,7 +292,7 @@
                         </div>
                         <div class="testi-wrap">
                             <div class="img-part">
-                                <img src="/public/assets/images/testimonial/style2/2.jpg" alt="">
+                                <img src="/assets/images/testimonial/style2/2.jpg" alt="">
                             </div>
                             <div class="content-part new-content pt-12">
                                 <div class="desc">Education is the passport to the future for tomorrow belongs to those who prepare for it today</div>

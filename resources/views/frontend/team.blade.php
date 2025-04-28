@@ -5,7 +5,7 @@
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs breadcrumbs-overlay">
             <div class="breadcrumbs-img">
-                <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+                <img src="/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
             </div>
             <div class="breadcrumbs-text white-color">
                 <h1 class="page-title">Team</h1>
@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-30">
                         <div class="team-item">
-                            <img src="/public/assets/images/courses/team_1.jpg" alt="" style="height: 400px;">
+                            <img src="/assets/images/courses/team_1.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
                                 <h4 class="name"><a href="">DR.R.K. CHAUHAN</a></h4>
                                 {{-- <span class="designation">Professor</span> --}}
@@ -44,7 +44,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-30">
                         <div class="team-item">
-                            <img src="/public/assets/images/courses/team_2.jpg" alt="" style="height: 400px;">
+                            <img src="/assets/images/courses/team_2.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
                                 <h4 class="name"><a href="">AMAR KUMAR MANDAL</a></h4>
                                 {{-- <span class="designation">Professor</span> --}}
@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-30">
                         <div class="team-item">
-                            <img src="/public/assets/images/courses/team_3.jpg" alt="" style="height: 400px;">
+                            <img src="/assets/images/courses/team_3.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
                                 <h4 class="name"><a href="">DR. PRITI VERMA</a></h4>
                                 {{-- <span class="designation">Professor</span> --}}

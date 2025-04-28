@@ -5,7 +5,7 @@
 
 <div class="rs-breadcrumbs breadcrumbs-overlay">
     <div class="breadcrumbs-img">
-        <img src="/public/assets/images/breadcrumbs/5.jpg" alt="Breadcrumbs Image">
+        <img src="/assets/images/breadcrumbs/5.jpg" alt="Breadcrumbs Image">
     </div>
     <div class="breadcrumbs-text white-color padding">
         <h1 class="page-title white-color">Payment</h1>

@@ -14,32 +14,32 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/assets/images/rays.png')}}">
     <!-- Bootstrap v4.4.1 css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/bootstrap.min.css')}}">
     <!-- font-awesome css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/font-awesome.min.css')}}">
     <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/animate.css')}}">
     <!-- owl.carousel css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/owl.carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/owl.carousel.css')}}">
     <!-- slick css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/slick.css')}}">
     <!-- off canvas css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/off-canvas.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/off-canvas.css')}}">
     <!-- linea-font css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/fonts/linea-fonts.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/fonts/linea-fonts.css')}}">
     <!-- flaticon css  -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/fonts/flaticon.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/fonts/flaticon.css')}}">
     <!-- magnific popup css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/magnific-popup.css')}}">
     <!-- Main Menu css -->
-    <link rel="stylesheet" href="{{asset('/public/assets/css/rsmenu-main.css')}}">
+    <link rel="stylesheet" href="{{asset('/assets/css/rsmenu-main.css')}}">
     <!-- spacing css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/rs-spacing.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/rs-spacing.css')}}">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/style.css')}}">
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/public/assets/css/responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/responsive.css')}}">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
@@ -116,7 +116,7 @@
 
                 <div class="col-md-2 col-2 d-md-block">
                     <a href="{{ url('/') }}">
-                        <img class="top_header_logo" src="{{asset('/public/assets/images/KIMS_logo.png')}}" alt=""
+                        <img class="top_header_logo" src="{{asset('/assets/images/KIMS_logo.png')}}" alt=""
                             width="auto">
                     </a>
                 </div>
@@ -156,7 +156,7 @@
 
                 <div class="col-md-2 col-2 d-md-block">
                     <a href="{{ url('/') }}">
-                        <img class="top_header_logo" src="{{asset('/public/assets/images/eyeglasses.png')}}" alt=""
+                        <img class="top_header_logo" src="{{asset('/assets/images/eyeglasses.png')}}" alt=""
                             width="auto">
                     </a>
                 </div>
@@ -166,11 +166,11 @@
 
 
             <div class="container-fluid px-0 header_banner d-none d-md-block">
-                <img src="{{asset('/public/assets/images/banner_logo.jpg')}}" alt="">
+                <img src="{{asset('/assets/images/banner_logo.jpg')}}" alt="">
             </div>
 
             <div class="container-fluid px-0 header_banner d-block d-md-none">
-                <img src="{{asset('/public/assets/images/banner_mobile.jpg')}}" alt="">
+                <img src="{{asset('/assets/images/banner_mobile.jpg')}}" alt="">
             </div>
 
 
@@ -180,17 +180,17 @@
             <div class="menu-area menu-sticky" id="navbar">
                 <div class="logo-part d-none d-lg-block">
                     <a class="light-logo d-none" href="{{url('/')}}">
-                        <img class="navbar_logo d-none" src="{{asset('/public/assets/images/logo.jpg')}}" alt="KIMS Logo"
+                        <img class="navbar_logo d-none" src="{{asset('/assets/images/logo.jpg')}}" alt="KIMS Logo"
                             style="height: 100px !important; width: auto;max-height:80px !important;">
                     </a>
                     <a class="small-logo" href="{{url('/')}}">
-                        <img class="logo" src="{{asset('/public/assets/images/logo.jpg')}}" alt="KIMS logo">
+                        <img class="logo" src="{{asset('/assets/images/logo.jpg')}}" alt="KIMS logo">
                     </a>
                 </div>
                 <div class="container">
                     {{-- <div class="responsive-logo">
                         <a href="{{ url('/') }}">
-                            <img class="logo" src="{{asset('/public/assets/images/KIMS_logo.png')}}" alt="KIMS logo">
+                            <img class="logo" src="{{asset('/assets/images/KIMS_logo.png')}}" alt="KIMS logo">
                         </a>
                     </div> --}}
 
@@ -395,7 +395,7 @@
                     </div>
                 </div>
                 <div class="canvas-logo">
-                    <a href=""><img src="{{asset('/public/assets/images/photos/logo.jpg')}}" alt="logo"></a>
+                    <a href=""><img src="{{asset('/assets/images/photos/logo.jpg')}}" alt="logo"></a>
                 </div>
                 <div class="offcanvas-text">
                     <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo by the
@@ -403,32 +403,32 @@
                 </div>
                 <div class="offcanvas-gallery">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/1.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/1.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/1.jpg')}}" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/2.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/2.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/2.jpg')}}" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/3.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/3.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/3.jpg')}}" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/4.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/4.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/4.jpg')}}" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/5.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/5.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/5.jpg')}}" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{asset('/public/assets/images/gallery/6.jpg')}}"><img
+                        <a class="image-popup" href="{{asset('/assets/images/gallery/6.jpg')}}"><img
                                 src="{{asset('assets/images/gallery/6.jpg')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="map-img">
-                    <img src="{{asset('/public/assets/images/map.jpg')}}" alt="">
+                    <img src="{{asset('/assets/images/map.jpg')}}" alt="">
                 </div>
                 <div class="canvas-contact">
                     <ul class="social">
