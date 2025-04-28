@@ -86,15 +86,20 @@ class AdminController extends Controller
 
 
     public function enquiry(){
-        $enquiryList = DB::table('enquiry')->get();
+        $enquiryList = DB::table('enquiry')->paginate(10);
         return view('backend.enquiry',compact('enquiryList'));
-
     }
-    // public function user_list(){
-    //     $UserList = DB::table('register_users')->get();
-    //     return view('backend.registered_user',compact('UserList'));
 
-    // }
+    public function frenchise(){
+        $enquiryList = DB::table('frenchise')->paginate(10);
+        return view('backend.frenchise',compact('enquiryList'));
+    }
+
+
+    public function assosication(){
+        $data = DB::table('associate')->paginate(10);
+        return view('backend.associate',compact('data'));
+    }
 
     public function user_list() {
         $UserList = RegisterUser::all();
@@ -119,6 +124,11 @@ class AdminController extends Controller
     {
         RegisterUser::find($id)?->delete(); // Soft delete
         return redirect()->back()->with('success', 'User deleted successfully!');
+    }
+
+    public function delete($table,$id){
+       DB::table($table)->where('id',$id)->delete();
+       return redirect()->back()->with('success','Data Deleted Successfully');
     }
 
 }

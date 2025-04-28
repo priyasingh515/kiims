@@ -5,13 +5,13 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="/public/assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
             <h1 class="page-title">All Courses</h1>
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="{{ url('/') }}">Home</a>
                 </li>
                 <li>Courses</li>
             </ul>
@@ -34,7 +34,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('/ot')}}">
-                                <img src="assets/images/about/ot.jpeg" alt="">
+                                <img src="/public/assets/images/about/ot.jpeg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -50,7 +50,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('emt')}}">
-                                <img src="assets/images/about/emt.jpg" alt="">
+                                <img src="/public/assets/images/about/emt.jpg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -65,13 +65,13 @@
                 <div class="col-lg-4 col-md-6 grid-item filter1 filter2">
                     <div class="courses-item mb-30">
                         <div class="img-part">
-                            <a href="{{url('dmit')}}">
-                                <img src="assets/images/about/dmit.jpg" alt="">
+                            <a href="{{url('bmlt')}}">
+                                <img src="/public/assets/images/about/dmit.jpg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
                            
-                            <h3 class="title"><a href="{{url('dmit')}}">Diploma in Medical Imaging Technology (DMIT)
+                            <h3 class="title"><a href="{{url('bmlt')}}">Bachelor in Medical Laboratory Technology (BMLT)
                             </a></h3>
                             <div class="bottom-part">
                                
@@ -79,11 +79,30 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 grid-item filter1 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('dmlt')}}">
+                                <img src="/public/assets/images/courses/dmlt.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('dmlt')}}">Diploma in Medical Lab Technician (DMLT)
+                            </a></h3>
+                            <div class="bottom-part">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-6 grid-item filter4 filter1">
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('opthemic')}}">
-                                <img src="assets/images/about/opthalmic.jpg" alt="">
+                                <img src="/public/assets/images/about/opthalmic.jpg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -102,7 +121,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('ctMR')}}">
-                                <img src="assets/images/about/ct.jpg" alt="">
+                                <img src="/public/assets/images/about/ct.jpg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -120,7 +139,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('dresser')}}">
-                                <img src="assets/images/about/dresser.jpg" alt="">
+                                <img src="/public/assets/images/about/dresser.jpg" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -132,7 +151,213 @@
                         </div>
                     </div>
                 </div>
+
+             
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('nursing')}}">
+                                <img src="/public/assets/images/courses/nursing.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('nursing')}}">Nursing</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('anm')}}">
+                                <img src="/public/assets/images/courses/anm.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('anm')}}">ANM</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('gnm')}}">
+                                <img src="/public/assets/images/courses/gnm.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('gnm')}}">GNM</a></h3>
+                            <div class="bottom-part">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('bpharma')}}">
+                                <img src="/public/assets/images/courses/bpharm.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('bpharma')}}">B Pharma</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('dpharma')}}">
+                                <img src="/public/assets/images/courses/d-pharma-2.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('dpharma')}}">D Pharma</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('ecg')}}">
+                                <img src="/public/assets/images/courses/ecg.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('ecg')}}">ECG</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('others-bsc-courses')}}">
+                                <img src="/public/assets/images/courses/bsc.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('others-bsc-courses')}}">Others BSC Courses</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('others-certificate-courses')}}">
+                                <img src="/public/assets/images/courses/certificate.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('others-certificate-courses')}}">Others Certificate Courses</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 
+
+                <div style="visibility: hidden;" class="col-lg-4 col-md-6 grid-item filter3 filter2 ">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('others-diploma-courses')}}">
+                                <img src="/public/assets/images/courses/diploma.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('others-diploma-courses')}}">Others Diploma Courses</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="col-lg-4 col-md-6 grid-item filter3 filter2 ">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('others-diploma-courses')}}">
+                                <img src="/public/assets/images/courses/diploma.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('others-diploma-courses')}}">Others Diploma Courses</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="visibility: hidden;" class="col-lg-4 col-md-6 grid-item filter3 filter2 ">
+                    <div class="courses-item mb-30">
+                        <div class="img-part">
+                            <a href="{{url('others-diploma-courses')}}">
+                                <img src="/public/assets/images/courses/diploma.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-part">
+                           
+                            <h3 class="title"><a href="{{url('others-diploma-courses')}}">Others Diploma Courses</a></h3>
+                            <div class="bottom-part">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
             </div>
             {{-- <div class="pagination-area orange-color text-center mt-30 md-mt-0">
                 <ul class="pagination-part">

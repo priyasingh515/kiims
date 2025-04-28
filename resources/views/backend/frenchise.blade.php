@@ -1,0 +1,72 @@
+@extends('backend.layouts.main')
+@section('main-container')
+<style>
+  .hidden{
+    display: none;
+  }
+</style>
+    
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title"> Frenchise List </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="{{ url('dashboard') }}">Dashboard</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Frenchise List</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    {{-- <h4 class="card-title">Enquiry List</h4> --}}
+                    {{-- <p class="card-description"> Add class <code>.table-striped</code> --}}
+                    {{-- </p> --}}
+                    <div class="table-responsive">
+                    <table class="table  table-striped">
+                      <thead>
+                        <tr>
+                          <th>Id</th>
+                          <th> Name </th>
+                          <th> Email </th>
+                          <th> Phone </th>
+                          <th> Adhar Card </th>
+                          <th> District </th>
+                          <th style="width: 100px;"> Address </th>
+                          <th> Action </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @php
+                            $sn=1;
+                        @endphp
+                        @foreach ($enquiryList as $item)
+                        <tr>
+                            <th>{{$sn++}}</th>
+                          <td class="py-1">{{$item->name}}</td>
+                          <td>{{$item->email}}</td>
+                          <td>{{$item->mobile_number}}</td>
+                          <td>{{$item->aadhar_card}}</td>
+                          <td >{{$item->district}}</td>
+                          <td >{{$item->address}}</td>
+                          <td>
+                            {{-- <a href="{{url('edit_admin/'.$key->id)}}"class="btn text-info">Edit</a> --}}
+                         <a href="{{ url('admin/delete/frenchise/'.$item->id)}}"class="btn text-danger">Delete</a>
+                          </td>
+
+                        </tr>
+                        @endforeach
+                       
+                      </tbody>
+                    </table>
+                    {{ $enquiryList->links() }}
+                  </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          @endsection

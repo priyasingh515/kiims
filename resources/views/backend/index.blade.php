@@ -3,7 +3,7 @@
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">
-              <div class="col-md-4 grid-margin stretch-card">
+              <!-- <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Sessions by channel</h4>
@@ -61,7 +61,7 @@
                     <div id="performance-indicator-chart" class="ct-chart mt-4"></div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <!-- content-wrapper ends -->

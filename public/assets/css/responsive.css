@@ -37,7 +37,7 @@
         width: 250px;
     }
     .full-width-header.header-style3.modify .rs-header .menu-area .logo-part img {
-        max-height: 30px;
+        max-height: 100px;
     }
     .full-width-header.header-style3.modify .rs-header .menu-area .logo-cat-wrap {
         margin-left: 100px;
@@ -79,7 +79,7 @@
         left: -75px;
     }
     .full-width-header.header-style3 .rs-header .logo-part img {
-        max-height: 30px;
+        max-height: 100px;
     }
 
     .rs-features .features-wrap {
@@ -143,7 +143,7 @@
     }
 
     .full-width-header .rs-header .logo-part img {
-        max-height: 35px;
+        max-height: 100px;
     }
     .full-width-header.header-style3 .rs-header .menu-area .menu-bg::before {
         left: 65%;
@@ -249,7 +249,11 @@
         justify-content: center;
     }
     .rs-banner.style4 {
-        min-height: 900px;
+        /* min-height: 900px; */
+ 	min-height: 500px;
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
     }
     .rs-banner.style4 .banner-content .banner-title {
         font-size: 65px;
@@ -1863,8 +1867,8 @@
         display: none;
     }
 
-    .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a{
-        color: #394459 !important;
+     .visible > li a{
+        color: #fff !important;
     }
 
     .full-width-header.header-style2.modify1.header-home6 .rs-header .rs-menu-area .main-menu .rs-menu ul.nav-menu li a,

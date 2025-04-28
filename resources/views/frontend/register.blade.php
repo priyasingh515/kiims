@@ -5,19 +5,18 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay ">
         <div class="breadcrumbs-img">
-            <img src="assets/images/breadcrumbs/6.jpg" alt="Breadcrumbs Image">
+            <img src="/public/assets/images/breadcrumbs/6.jpg" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color padding">
             <h1 class="page-title white-color">Register</h1>
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="{{ url('/') }}">Home</a>
                 </li>
                 <li>Register</li>
             </ul>
         </div>
     </div>
-   
     @if(session('success') && session('enrol_id'))
         <script>
             Swal.fire({
@@ -48,10 +47,18 @@
                                 <option value="">Select Courses</option>
                                 <option value="ot">O.T</option>
                                 <option value="dmit">D.M.I.T</option>
+                                <option value="bmit">B.M.I.T</option>
                                 <option value="ctmri">CT/MRI/X-RAY/ICU</option>
                                 <option value="emt">E.M.T</option>
+                                <option value="cms">CMS & ED</option>
                                 <option value="opthemic">OPTHEMIC</option>
                                 <option value="drasser">DRASSER</option>
+                                <option value="drasser">Nursing</option>
+                                <option value="anm">ANM</option>
+                                <option value="gnm">GNM</option>
+                                <option value="pharmacy">Pharmacy</option>
+                                <option value="bpharma">B Pharma</option>
+                                <option value="dpharma">D Pharma</option>
                             </select>
                         </div>
                         <div class="col-lg-6 mb-35 col-md-12">

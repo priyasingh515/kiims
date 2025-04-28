@@ -4,13 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Paramedical Admin</title>
+    <title>KIMS Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/css/vendor.bundle.base.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/css/style.css')}}">
-    <link rel="shortcut icon" href="{{asset('adminasset/images/favicon.png')}}" />
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/css/style.css')}}">
+    <link rel="shortcut icon" href="{{asset('/public/adminasset/images/favicon.png')}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   </head>
@@ -22,9 +22,9 @@
             <div class="col-lg-4 mx-auto">
               <div class="auth-form-light text-left p-5">
                 <div class="brand-logo">
-                  <img src="{{asset('adminasset/images/logo.svg')}}">
+                  <img src="{{asset('/public/assets/images/KIMS_logo.png')}}">
                 </div>
-                <h4>Hello! let's get started</h4>
+                {{-- <h4>Hello! let's get started</h4> --}}
                 <h6 class="font-weight-light">Sign in to continue.</h6>
                 <form class="pt-3" action="{{route('admin.authenticate')}}" method="post">
                     @csrf
@@ -64,10 +64,10 @@
       <!-- page-body-wrapper ends -->
     </div>
   
-    <script src="{{asset('adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
+    <script src="{{asset('/public/adminasset/vendors/js/vendor.bundle.base.js')}}"></script>
 
-    <script src="{{asset('adminasset/js/off-canvas.js')}}"></script>
-    <script src="{{asset('adminasset/js/misc.js')}}"></script>
+    <script src="{{asset('/public/adminasset/js/off-canvas.js')}}"></script>
+    <script src="{{asset('/public/adminasset/js/misc.js')}}"></script>
     <script>
         function refreshCaptcha() {
             document.getElementById('captcha-img').src = "{{ url('/captcha') }}?" + Math.random();

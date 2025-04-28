@@ -35,9 +35,14 @@ Route::group(['prefix'=>'admin'],function(){
 
         Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
         Route::get('/enquiry', [AdminController::class, 'enquiry'])->name('admin.enquiry');
+        Route::get('/frenchise', [AdminController::class, 'frenchise'])->name('admin.frenchise');
+        Route::get('/assosication', [AdminController::class, 'assosication'])->name('admin.assosication');
         Route::get('/student_list', [AdminController::class, 'user_list'])->name('admin.userList');
-        Route::get('/student_list_delete/{id}', [AdminController::class, 'registerUserdlt'])->name('admin.UserDlt');
         Route::post('/admin/update-status', [AdminController::class, 'updateStatus'])->name('admin.status.update');
+        Route::get('/student_list_delete/{id}', [AdminController::class, 'registerUserdlt'])->name('admin.UserDlt');
+
+        Route::get('/delete/{table}/{id}', [AdminController::class, 'delete'])->name('admin.delete');
+
         Route::get('/logout',[AdminController::class,'logout'])->name('admin.logout');
 
 
@@ -53,6 +58,13 @@ Route::get('/team', [HomeController::class, 'team']);
 Route::get('/gallery', [HomeController::class, 'gallery']);
 Route::get('/contact', [HomeController::class, 'contact']);
 Route::get('/blog', [HomeController::class, 'blog']);
+Route::get('/payment', [HomeController::class, 'payment']);
+Route::get('/enquiry', [HomeController::class, 'enquiry']);
+Route::get('/frechicy', [HomeController::class, 'frechicy']);
+Route::get('/advisory-board', [HomeController::class, 'board']);
+Route::get('/associate', [HomeController::class, 'associate']);
+Route::post('/associate', [HomeController::class, 'saveAssociate'])->name('associate');
+
 Route::get('/register', [HomeController::class, 'register']);
 Route::get('/allCourse', [HomeController::class, 'allCourse']);
 Route::get('/ot', [HomeController::class, 'ot']);
@@ -60,13 +72,32 @@ Route::get('/opthemic', [HomeController::class, 'opthemic']);
 Route::get('/dmit', [HomeController::class, 'dmit']);
 Route::get('/emt', [HomeController::class, 'emt']);
 Route::get('/ctMR', [HomeController::class, 'ctmr']);
-Route::get('/dresser', [HomeController::class, 'dresser']);
 Route::get('/cms', [HomeController::class, 'Cms']);
 Route::get('/dmlt', [HomeController::class, 'Dmlt']);
 Route::get('/bmlt', [HomeController::class, 'BMLT']);
+Route::get('/ecg', [HomeController::class, 'ecg']);
+
+
+
+
+Route::get('/nursing', [HomeController::class, 'nursing']);
+Route::get('/anm', [HomeController::class, 'anm']);
+Route::get('/gnm', [HomeController::class, 'gnm']);
+Route::get('/pharmacy', [HomeController::class, 'pharmacy']);
+Route::get('/dpharma', [HomeController::class, 'dpharma']);
+Route::get('/bpharma', [HomeController::class, 'bpharma']);
+
+Route::get('/others-bsc-courses', [HomeController::class, 'other_bsc_courses']);
+Route::get('/others-certificate-courses', [HomeController::class, 'other_certificate_courses']);
+Route::get('/others-diploma-courses', [HomeController::class, 'other_diploma_courses']);
+
+
+
+Route::get('/dresser', [HomeController::class, 'dresser']);
 Route::post('/register-user', [HomeController::class, 'registerStore'])->name('register.user');
 Route::post('/enquiry', [HomeController::class, 'enquiry'])->name('enquiry.user');
+Route::post('/frenchise', [HomeController::class, 'frenchise'])->name('frenchise.user');
+Route::get('/admin/search-by-enrollment', [HomeController::class, 'searchByEnrollment'])->name('admin.searchByEnrollment');
 Route::get('/verify', [HomeController::class, 'verify'])->name('verify.user');
 
-Route::get('/admin/search-by-enrollment', [HomeController::class, 'searchByEnrollment'])->name('admin.searchByEnrollment');
 

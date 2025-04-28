@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KIIMS Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/simple-line-icons/css/simple-line-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/css/vendor.bundle.base.css')}}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/daterangepicker/daterangepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('adminasset/vendors/chartist/chartist.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/vendors/chartist/chartist.min.css')}}">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="{{asset('adminasset/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/adminasset/css/style.css')}}">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="{{asset('adminasset/images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('/public/adminasset/images/favicon.png')}}">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   </head>
@@ -41,20 +41,22 @@
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="navbar-brand-wrapper d-flex align-items-center">
           <a class="navbar-brand brand-logo" href="">
-            <img src="{{asset('adminasset/images/logo.svg')}}" alt="logo" class="logo-dark">
+            <!-- <img src="{{asset('/public/adminasset/images/logo.svg')}}" alt="logo" class="logo-dark"> -->
           </a>
-          <a class="navbar-brand brand-logo-mini" href=""><img src="{{asset('adminasset/images/logo-mini.svg')}}" alt="logo"></a>
+          <!-- <a class="navbar-brand brand-logo-mini" href=""><img src="{{asset('/public/adminasset/images/logo-mini.svg')}}" alt="logo"></a> -->
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
-          <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome {{Auth::User()->name}} dashboard!</h5>
+          <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome {{Auth::User()->name}} 
+            dashboard!
+          </h5>
           <ul class="navbar-nav navbar-nav-right ml-auto">
             
             <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
               <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle ml-2" src="{{asset('assets/images/team/icon/6.png')}}" alt="Profile image"> <span class="font-weight-normal"> {{Auth::User()->name}} </span></a>
+                <img class="img-xs rounded-circle ml-2" src="{{asset('public/assets/images/team/icon/6.png')}}" alt="Profile image"> <span class="font-weight-normal"> {{Auth::User()->name}} </span></a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="{{asset('assets/images/team/icon/6.png')}}" alt="Profile image" height="50" width="50">
+                  <img class="img-md rounded-circle" src="{{asset('/public/assets/images/team/icon/6.png')}}" alt="Profile image" height="50" width="50">
                   <p class="mb-1 mt-3">{{Auth::User()->name}}</p>
                   <p class="font-weight-light text-muted mb-0">{{Auth::User()->email}}</p>
                 </div>
@@ -79,7 +81,7 @@
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
                 <div class="profile-image">
-                  <img class="img-xs rounded-circle" src="{{asset('assets/images/team/icon/6.png')}}" alt="profile image">
+                  <img class="img-xs rounded-circle" src="{{asset('/public/assets/images/team/icon/6.png')}}" alt="profile image">
                   <div class="dot-indicator bg-success"></div>
                 </div>
                 <div class="text-wrapper">
@@ -93,7 +95,12 @@
               </a>
             </li>
             <li class="nav-item nav-category">
-              <span class="nav-link">Dashboard</span>
+              <span class="nav-link">
+                <a href="{{ url('admin/dashboard') }}">
+                Dashboard
+                </a>
+                
+              </span>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('admin.enquiry')}}">
@@ -101,6 +108,21 @@
                 <i class="icon-screen-desktop menu-icon"></i>
               </a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{route('admin.assosication')}}">
+                <span class="menu-title">Assosication Apply List</span>
+                <i class="icon-screen-desktop menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{route('admin.frenchise')}}">
+                <span class="menu-title">Frenchise List</span>
+                <i class="icon-screen-desktop menu-icon"></i>
+              </a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="{{route('admin.userList')}}">
                 <span class="menu-title">Registered User</span>
@@ -108,30 +130,49 @@
               </a>
             </li>
             {{-- <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <span class="menu-title">Dashboard</span>
+                <i class="icon-screen-desktop menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item nav-category"><span class="nav-link">UI Elements</span></li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-title">Basic UI Elements</span>
+                <i class="icon-layers menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="pages/icons/simple-line-icons.html">
                 <span class="menu-title">Icons</span>
                 <i class="icon-globe menu-icon"></i>
               </a>
-            </li> --}}
-            {{-- <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="pages/forms/basic_elements.html">
                 <span class="menu-title">Form Elements</span>
                 <i class="icon-book-open menu-icon"></i>
               </a>
-            </li> --}}
-            {{-- <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="pages/charts/chartist.html">
                 <span class="menu-title">Charts</span>
                 <i class="icon-chart menu-icon"></i>
               </a>
-            </li> --}}
-            {{-- <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="pages/tables/basic-table.html">
                 <span class="menu-title">Tables</span>
                 <i class="icon-grid menu-icon"></i>
               </a>
-            </li> --}}
-            {{-- <li class="nav-item nav-category"><span class="nav-link">Sample Pages</span></li>
+            </li>
+            <li class="nav-item nav-category"><span class="nav-link">Sample Pages</span></li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                 <span class="menu-title">General Pages</span>

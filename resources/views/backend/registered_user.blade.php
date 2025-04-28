@@ -5,11 +5,11 @@
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
-              <h3 class="page-title"> Enquiry List </h3>
+              <h3 class="page-title"> Registration List </h3>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Tables</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Enquiry List</li>
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Registration List</li>
                 </ol>
               </nav>
             </div>
@@ -55,8 +55,6 @@
                             <td>{{$sn++}}</td>
                             <th>{{$item->enrol_id}}</th>
                             <td>
-                              {{-- {{$item->course}} --}}
-
                               @if($item->course == 'ot')
                               O.T
                               @elseif($item->course == 'dmit')
@@ -70,17 +68,16 @@
                               @elseif($item->course == 'ctmri')
                                 CT/MRI/X-RAY/ICU
                               @endif
-
                             </td>
                             <td class="py-1">{{$item->name}}</td>
                             <td>{{$item->email}}</td>
                             <td>{{$item->phone}}</td>
                             <td>{{$item->aadhar}}</td>
                             <td>
-                                <img src="{{url('/uploads/images/'.$item->image)}}" alt=""height="60"width="60">
+                                <img src="{{url('/public/uploads/images/'.$item->image)}}" alt=""height="60"width="60">
                             </td>
                             <td>
-                              <img src="{{url('/uploads/signs/'.$item->sign)}}" alt=""height="60"width="60">
+                              <img src="{{url('/public/uploads/signs/'.$item->sign)}}" alt=""height="60"width="60">
                             </td>
                             <td>{{$item->fname}}</td>
                             <td>{{$item->mname}}</td>
@@ -130,7 +127,8 @@
                               @elseif($item->status == 'cancel')
                                   <span class="badge bg-danger">Cancelled</span>
                               @endif
-                          </td>
+                               
+                            </td>
                             <td>
                               <a href="javascript:void(0);"
                                 class="btn text-primary"
@@ -144,8 +142,6 @@
                           </tr>
                           @endforeach
                         </tbody>
-
-                        
                       </table>
                       <div class="modal fade" id="statusModal" tabindex="-1" aria-labelledby="statusModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -186,13 +182,13 @@
             </div>
           </div>
           
-   
           @endsection
+
           <script>
-              function openStatusModal(userId, currentStatus) {
-                  document.getElementById('modal_user_id').value = userId;
-                  document.getElementById('modal_status').value = currentStatus;
-              }
-          </script>
+            function openStatusModal(userId, currentStatus) {
+                document.getElementById('modal_user_id').value = userId;
+                document.getElementById('modal_status').value = currentStatus;
+            }
+        </script>
 
           

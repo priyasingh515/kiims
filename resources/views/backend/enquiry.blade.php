@@ -1,5 +1,10 @@
 @extends('backend.layouts.main')
 @section('main-container')
+<style>
+  .hidden{
+    display: none;
+  }
+</style>
     
         <div class="main-panel">
           <div class="content-wrapper">
@@ -7,7 +12,7 @@
               <h3 class="page-title"> Enquiry List </h3>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Tables</a></li>
+                  <li class="breadcrumb-item"><a href="{{ url('dashboard') }}">Dashboard</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Enquiry List</li>
                 </ol>
               </nav>
@@ -18,8 +23,9 @@
                   <div class="card-body">
                     {{-- <h4 class="card-title">Enquiry List</h4> --}}
                     {{-- <p class="card-description"> Add class <code>.table-striped</code> --}}
-                    </p>
-                    <table class="table table-striped">
+                    {{-- </p> --}}
+                    <div class="table-responsive">
+                    <table class="table  table-striped">
                       <thead>
                         <tr>
                           <th>Id</th>
@@ -27,7 +33,7 @@
                           <th> Email </th>
                           <th> Phone </th>
                           <th> Subject </th>
-                          <th> Message </th>
+                          <th style="width: 100px;"> Message </th>
                           <th> Action </th>
                         </tr>
                       </thead>
@@ -42,10 +48,10 @@
                           <td>{{$item->email}}</td>
                           <td>{{$item->phone}}</td>
                           <td>{{$item->subject}}</td>
-                          <td>{{$item->message}}</td>
+                          <td >{{$item->message}}</td>
                           <td>
                             {{-- <a href="{{url('edit_admin/'.$key->id)}}"class="btn text-info">Edit</a> --}}
-                            <a href=""class="btn text-danger">Delete</a>
+                            <a href="{{ url('admin/delete/enquiry/'.$item->id)}}"class="btn text-danger">Delete</a>
 
                           </td>
 
@@ -54,6 +60,8 @@
                        
                       </tbody>
                     </table>
+                    {{ $enquiryList->links() }}
+                  </div>
                   </div>
                 </div>
               </div>
