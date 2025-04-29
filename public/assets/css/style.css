@@ -240,87 +240,87 @@ background-color:#263658 !important;
   background-repeat: no-repeat;
 }
 .bg1 {
-  background: url(/public/assets/images/bg/bg1.png);
+  background: url(/assets/images/bg/bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg2 {
-  background: url(/public/assets/images/bg/bg2.jpg);
+  background: url(/assets/images/bg/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg3 {
-  background: url(/public/assets/images/bg/bg3.png);
+  background: url(/assets/images/bg/bg3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .bg4 {
-  background: url(/public/assets/images/bg/home6/bg.png);
+  background: url(/assets/images/bg/home6/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg5 {
-  background: url(/public/assets/images/bg/home7/bg.png);
+  background: url(/assets/images/bg/home7/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
 }
 .bg6 {
-  background: url(/public/assets/images/bg/home-8-bg.jpg);
+  background: url(/assets/images/bg/home-8-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg7 {
-  background: url(/public/assets/images/bg/home8-bg2.jpg);
+  background: url(/assets/images/bg/home8-bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg8 {
-  background: url(/public/assets/images/bg/home12/dotted.png);
+  background: url(/assets/images/bg/home12/dotted.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 50px 0 50px;
 }
 .bg9 {
-  background: url(/public/assets/images/bg/home13/counter-bg.jpg);
+  background: url(/assets/images/bg/home13/counter-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg10 {
-  background: url(/public/assets/images/bg/home13/logo-bg.jpg);
+  background: url(/assets/images/bg/home13/logo-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg11 {
-  background: url(/public/assets/images/bg/home13/subscribe-bg.jpg);
+  background: url(/assets/images/bg/home13/subscribe-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg12 {
-  background: url(/public/assets/images/bg/home13/footer-bg.jpg);
+  background: url(/assets/images/bg/home13/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bg13 {
-  background: url(/public/assets/images/bg/video-text-bg15.jpg);
+  background: url(/assets/images/bg/video-text-bg15.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 60px 140px 60px;
 }
 .course-shape-bg {
-  background: url(/public/assets/images/bg/course-shape-bg.jpg);
+  background: url(/assets/images/bg/course-shape-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -6222,8 +6222,10 @@ height:500px;
 ---------------------------------------*/
 .rs-popular-courses.style1 .courses-item {
   padding: 30px;
-  border: 1px solid #dfe9eb;
+  height: 430px;
+  border: 1px solid #626566;
   border-radius: 5px;
+  background-color: #203344;
   transition: all 0.3s ease;
 }
 .rs-popular-courses.style1 .courses-item .img-part {
@@ -6257,10 +6259,14 @@ height:500px;
   margin: 0;
 }
 .rs-popular-courses.style1 .courses-item .content-part .title {
-  font-size: 24px;
+  font-size: 22px;
+  background-color: #fff;
+  padding: 6px 31px;
+  height: 63px;
 }
 .rs-popular-courses.style1 .courses-item .content-part .title a {
-  color: #111111;
+  /* color: #fff; */
+  color: #000;
 }
 .rs-popular-courses.style1 .courses-item .content-part .bottom-part {
   overflow: hidden;
@@ -7049,7 +7055,7 @@ height:500px;
   background: #ff5421;
 }
 .rs-popular-courses.orange-color .courses-item .content-part .title a:hover {
-  color: #ff5421;
+  color: #fff;
 }
 .rs-popular-courses.orange-color .courses-item .content-part .bottom-part .btn-part a {
   border: 1px solid #f2f2f2;
@@ -9078,10 +9084,12 @@ height:500px;
   opacity: 1;
 }
 .rs-testimonial.style4 .testi-item {
+  height: 300px;
   border-radius: 10px;
   padding: 30px;
   padding-right: 20px;
-  background: #ffffff;
+  background: #dc3741;
+  color: #ffffff;
   border: 1px solid rgba(33, 167, 208, 0.1);
   transition: all 0.3s ease;
 }
@@ -9097,10 +9105,10 @@ height:500px;
   line-height: 1.2;
   font-weight: 600;
   margin: 0;
-  color: #111111;
+  color: #ffffff;
 }
 .rs-testimonial.style4 .testi-item .user-info .name:hover {
-  color: #21a7d0;
+  color: #1d7c99;
 }
 .rs-testimonial.style4 .testi-item .user-info .designation {
   display: block;
@@ -9109,7 +9117,7 @@ height:500px;
   margin-bottom: 20px;
 }
 .rs-testimonial.style4 .testi-item .user-info .quote {
-  color: #111111;
+  color: #78a2ea;
   font-weight: bold;
 }
 .rs-testimonial.style4 .center .testi-item {
@@ -13866,7 +13874,7 @@ height:500px;
   font-weight: 400;
 }
 .contact-page-section .rs-quick-contact {
-  background-color: #F9F8F8;
+  background-color: #E6F4FA;
   padding: 70px 150px 70px;
 }
 .contact-page-section .rs-quick-contact .from-control {
@@ -13914,8 +13922,8 @@ height:500px;
 }
 .contact-page-section .rs-contact-box .address-item {
   padding: 50px 40px 50px 40px;
-  background: #ffffff;
-  box-shadow: 0 0 30px #fff;
+  /* background: #ffffff; */
+  /* box-shadow: 0 0 30px #fff; */
   text-align: center;
   margin: 0px 20px 0px 0px;
   border-radius: 5px 5px 5px 5px;
@@ -13928,17 +13936,17 @@ height:500px;
 }
 .contact-page-section .rs-contact-box .address-item .address-text .label {
   display: block;
-  color: #101010;
+  color: #ffffff;
   font-size: 22px;
   font-weight: 600;
   padding-bottom: 10px;
 }
 .contact-page-section .rs-contact-box .address-item .address-text .des {
   font-size: 17px;
-  color: #031a3d;
+  color: #ffffff;
 }
 .contact-page-section .rs-contact-box .address-item .address-text .des a {
-  color: #031a3d;
+  color: #ffffff;
 }
 .contact-page-section .rs-contact-box .address-item .address-text .des a:hover {
   color: #ff5421;

@@ -11,7 +11,7 @@
                 });
             </script>
         @endif
-        <section class="py-5" style="background-color: #f8f9fa;">
+        <section class="py-5" style="background-color: #E6F4FA;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center mb-4">

@@ -1,5 +1,18 @@
 @extends('frontend.layouts.main')
 @section('main-container')
+
+<style>
+    .contact-page-section .row.align-items-center {
+        background-color: #E6F4FA;
+        padding: 50px 20px;
+        border-radius: 10px;
+    }
+
+    .contactadd{
+        background-color: #171F32;
+        color: #ffff;
+    }
+</style>
     <!-- Main content Start -->
     <div class="main-content">
         <!-- Breadcrumbs Start -->
@@ -42,10 +55,10 @@
 
         <!-- Contact Section Start -->
         <div class="contact-page-section pt-100 pb-100 md-pt-70 md-pb-70">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row rs-contact-box mb-90 md-mb-50">
-                    <div class="col-lg-4 col-md-12-4 lg-pl-0 sm-mb-30 md-mb-30">
-                        <div class="address-item">
+                    <div class="col-lg-4 col-md-12-4 shadow contactadd">
+                        <div class="address-item" >
                             <div class="icon-part">
                                 <img src="/assets/images/contact/icon/1.png" alt="">
                             </div>
@@ -55,7 +68,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 lg-pl-0 sm-mb-30 md-mb-30">
+                    <div class="col-lg-4 col-md-12 shadow contactadd">
                         <div class="address-item">
                             <div class="icon-part">
                                 <img src="/assets/images/contact/icon/2.png" alt="">
@@ -66,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 lg-pl-0 sm-mb-30">
+                    <div class="col-lg-4 col-md-12 shadow contactadd">
                         <div class="address-item">
                             <div class="icon-part">
                                 <img src="/assets/images/contact/icon/3.png" alt="">
@@ -160,5 +173,5 @@
     </div>
     <!-- Main content End -->
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @endsection
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>

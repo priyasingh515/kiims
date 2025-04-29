@@ -20,8 +20,8 @@
     <!-- Breadcrumbs End -->
 
     <!-- Popular Courses Section Start -->
-    <div id="rs-popular-courses" class="rs-popular-courses style1 orange-color pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
+    <div id="rs-popular-courses" class="rs-popular-courses style1 orange-color pt-100 pb-100 md-pt-70 md-pb-70" style="background-color: #203344;">
+        <div class="container-fluid">
             {{-- <div class="gridFilter text-center mb-50">
                 <button class="active" data-filter="*">ALL</button>
                 <button data-filter=".filter1">SCIENCE</button>
@@ -176,7 +176,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('anm')}}">
-                                <img src="/assets/images/courses/anm.webp" alt="">
+                                <img src="/assets/images/courses/anm.png" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -194,7 +194,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('gnm')}}">
-                                <img src="/assets/images/courses/gnm.webp" alt="">
+                                <img src="/assets/images/courses/gnm.png" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -231,7 +231,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('dpharma')}}">
-                                <img src="/assets/images/courses/d-pharma-2.webp" alt="">
+                                <img src="/assets/images/courses/d-pharma-2.png" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -306,7 +306,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('others-diploma-courses')}}">
-                                <img src="/assets/images/courses/diploma.jpg" alt="">
+                                <img src="/assets/images/courses/diploma.png" alt="">
                             </a>
                         </div>
                         <div class="content-part">
@@ -324,7 +324,7 @@
                     <div class="courses-item mb-30">
                         <div class="img-part">
                             <a href="{{url('others-diploma-courses')}}">
-                                <img src="/assets/images/courses/diploma.jpg" alt="">
+                                <img src="/assets/images/courses/diploma.png" alt="">
                             </a>
                         </div>
                         <div class="content-part">

@@ -19,7 +19,7 @@
     <!-- Breadcrumbs End -->
 
     <!-- About Section Start -->
-    <div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70"style="background-color: #E6F4FA">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
@@ -118,7 +118,7 @@
     <!-- Counter Section End -->
 
     <!-- About Section Start -->
-    <div class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70 mt-5"style="background-color: #E6F4FA">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 padding-0 md-pl-15 md-pr-15 md-mb-30">

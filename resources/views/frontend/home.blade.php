@@ -6,6 +6,35 @@
     .rs-team.style1 .team-item:after{
         position: unset !important;
     }
+
+    .rs-counter {
+        background-color: #dc3741;
+        padding: 80px 0;
+    }
+
+    .counter-item {
+        background-color: #dc3741;
+      
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff; 
+
+    }
+
+    .counter-item .rs-count {
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .counter-item .title {
+        font-size: 18px;
+    }
+
+    
 </style>
     <div class="main-content">
         <!-- Banner Section Start -->            
@@ -233,34 +262,65 @@
                 <div class="row couter-area">
                     <div class="col-lg-3 col-md-6 md-mb-30">
                         <div class="counter-item text-center">
-                            <h2 class="rs-count">958</h2>
-                            <h4 class="title mb-0">Awards & Recognition</h4>
+                            <h2 class="rs-count text-white">958</h2>
+                            <h4 class="text-white mb-0">Awards & Recognition</h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 md-mb-30">
                         <div class="counter-item text-center">
-                            <h2 class="rs-count plus">4523</h2>
-                            <h4 class="title mb-0">Enrolled Student</h4>
+                            <h2 class="rs-count plus text-white">4523</h2>
+                            <h4 class=" text-white mb-0">Enrolled Student</h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="counter-item text-center">
-                            <h2 class="rs-count plus">120</h2>
-                            <h4 class="title mb-0">Expert Instructors</h4>
+                            <h2 class="rs-count plus text-white">120</h2>
+                            <h4 class=" text-white mb-0">Expert Instructors</h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="counter-item text-center">
-                            <h2 class="rs-count percent">100</h2>
-                            <h4 class="title mb-0">Satisfaction Rate</h4>
+                            <h2 class="rs-count percent text-white">100</h2>
+                            <h4 class="text-white mb-0">Satisfaction Rate</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        {{-- <div class="rs-counter style2-about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="counter-item text-center">
+                            <h2 class="text-white rs-count">958</h2>
+                            <h4 class="text-white mb-0">Awards & Recognition</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="counter-item text-center">
+                            <h2 class="text-white rs-count plus">4523+</h2>
+                            <h4 class="text-white mb-0">Enrolled Student</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="counter-item text-center">
+                            <h2 class="text-white rs-count plus">120+</h2>
+                            <h4 class="text-white mb-0">Expert Instructors</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="counter-item text-center">
+                            <h2 class="text-white rs-count percent">100%</h2>
+                            <h4 class="text-white mb-0">Satisfaction Rate</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
         <!-- Team Section Start -->
-        <div id="rs-team" class="rs-team style1 pt-94 pb-100 md-pt-64 md-pb-70">
+        <div id="rs-team" class="rs-team style1 pt-94 pb-100 md-pt-64 md-pb-70" style="background-color: #E6F4FA">
             <div class="container">
                 <div class="sec-title mb-50 md-mb-30">
                     <div class="sub-title primary primary-text-red-color">Team</div>
@@ -430,7 +490,7 @@
                     <h2 class="title mb-16 md-mb-10 primary-text-blue-color">Our Affiliate Institutes</h2>
                     <div class="desc">
                         <!-- We are now accepting applications for the upcoming academic session 2024-25. Join a vibrant learning community with expert faculty, modern infrastructure, and career-driven programs. Don't miss your chance!  -->
-                                       </div>
+                    </div>
                 </div>
                
             </div>
@@ -573,7 +633,7 @@
                 });
             </script>
         @endif
-        <section class="py-5" style="background-color: #f8f9fa;">
+        <section class="py-5" style="background-color: #E6F4FA;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-5">
