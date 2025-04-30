@@ -4113,6 +4113,7 @@ height:500px;
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 5px;
+  margin-left: 40px;
 }
 .rs-banner.style4 .banner-line-shape {
   position: absolute;
@@ -4863,13 +4864,13 @@ height:500px;
   margin-bottom: 65px;
 }
 .rs-slider.main-home .slider-content.slide1 {
-  background: url(assets/images/slider/main-home/1.jpg);
+  background: url(/assets/images/slider/main-home/1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .rs-slider.main-home .slider-content.slide2 {
-  background: url(assets/images/slider/main-home/2.jpg);
+  background: url(/assets/images/slider/main-home/2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

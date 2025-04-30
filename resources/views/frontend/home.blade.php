@@ -1,6 +1,7 @@
 
 @extends('frontend.layouts.main')
 @section('main-container')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
     .rs-team.style1 .team-item:after{
@@ -33,15 +34,25 @@
     .counter-item .title {
         font-size: 18px;
     }
+    .slidehead {
+        font-size: 50px !important; /* Default for desktop */
+        font-weight: 700 !important;
+    }
+
+    @media (max-width: 767.98px) {
+        .slidehead {
+            font-size: 25px !important; /* Mobile view */
+            font-weight: 700 !important;
+        }
+    }
 
     
 </style>
     <div class="main-content">
         <!-- Banner Section Start -->            
-        <div id="rs-banner" class="rs-banner style4">
+        {{-- <div id="rs-banner" class="rs-banner style4">
             <div class="container relative">
                 <div class="row relative">
-                    {{-- <div class="offset-lg-6"></div> --}}
                     <div class="col-lg-9 lg-pl-0">
                         <div class="banner-line-shape js-tilt">
                             <img src="{{asset('/assets/images/banner/banner-line.png')}}" alt="Banner Circle Shape">
@@ -50,10 +61,9 @@
                             <h1 class="banner-title white-color wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">
                                 कृष्णायन इंस्टीट्यूट ऑफ मेडिकल साइंस
                             </h1>
-                            {{-- <div class="desc white-color mb-41 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">From DMLT to Emergency Medical Training—KIMS offers career-focused courses with real hospital experience and placement support. <br></div> --}}
-                            {{-- <div class="banner-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="3000ms">
-                                <a class="readon2 banner-style" href="{{url('/register')}}">Register Now</a>
-                            </div> --}}
+                            <div class="banner-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="3000ms">
+                                <a class="readon2 banner-style" href="{{ url('frechicy') }}">Register Now</a>
+                            </div>
                         </div> 
                         <div class="banner-circle-shape js-tilt">
                             <img src="{{asset('/assets/images/banner/banner-circle.png')}}" alt="Banner Circle Shape">
@@ -64,10 +74,79 @@
                     <img src="{{asset('/assets/images/banner/banner-dots.png')}}" alt="Banner Dots Shape">
                 </div>                   
             </div>
+        </div> --}}
+
+        <div id="rs-banner-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="rs-banner style4">
+                        <div class="container relative">
+                            <div class="row relative">
+                                <div class="col-lg-9 lg-pl-0">
+                                    <div class="banner-line-shape js-tilt">
+                                        <img src="{{asset('/assets/images/banner/banner-line.png')}}" alt="Banner Line">
+                                    </div>
+                                    <div class="banner-content pb-13">
+                                        <h1 class="banner-title white-color wow fadeInLeft slidehead" data-wow-delay="300ms" data-wow-duration="3000ms">
+                                            कृष्णायन इंस्टीट्यूट ऑफ मेडिकल साइंस
+                                        </h1>
+                                       
+                                    </div>
+                                    <div class="banner-circle-shape js-tilt">
+                                        <img src="{{asset('/assets/images/banner/banner-circle.png')}}" alt="Banner Circle">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-dots-shape js-tilt">
+                                <img src="{{asset('/assets/images/banner/banner-dots.png')}}" alt="Banner Dots">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="rs-banner style4">
+                        <div class="container relative">
+                            <div class="row relative">
+                                <div class="col-lg-9 lg-pl-0">
+                                    <div class="banner-line-shape js-tilt">
+                                        <img src="{{asset('/assets/images/banner/banner-line.png')}}" alt="Banner Line">
+                                    </div>
+                                    <div class="banner-content pb-13">
+                                        <h1 class="banner-title white-color wow fadeInLeft slidehead"data-wow-delay="300ms" data-wow-duration="3000ms">
+                                            कृष्णायन इंस्टीट्यूट ऑफ मेडिकल साइंस के साथ जुड़कर अपना खुद का पैरामेडिकल कॉलेज ओपन करने के लिए संपर्क करें
+                                        </h1>
+                                        <div class="banner-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="3000ms">
+                                            <a class="readon2 banner-style" href="{{ url('frechicy') }}" style="margin-left: 40px">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="banner-circle-shape js-tilt">
+                                        <img src="{{asset('/assets/images/banner/banner-circle.png')}}" alt="Banner Circle">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-dots-shape js-tilt">
+                                <img src="{{asset('/assets/images/banner/banner-dots.png')}}" alt="Banner Dots">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#rs-banner-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#rs-banner-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
+        
         <!-- Banner Section End -->
 
-        <div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+        <div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70" style="background-color: #E6F4FA">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 pl-60 order-last md-pl-15 md-mb-60">
@@ -79,7 +158,7 @@
                     <div class="col-lg-5">
                         <div class="sec-title mb-26 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
                             <div class="sub-title primary primary-text-red-color">About Us</div>
-                            <h2 class="title primary-text-blue-color">Welcome to <br>Krishnayan Institute Of Medical Science Foundation</h2>
+                            <h2 class="title text-danger">Welcome to <br>Krishnayan Institute Of Medical Science</h2>
                             <div class="desc pr-30 text-justify">
                                 Welcome to KIMS <span class="font-weight-bold">Krishnayan Institute of Medical Sciences</span> a premier institute dedicated to shaping the future of healthcare professionals through excellence in paramedical education. Established with a vision to bridge the gap between demand and supply in the healthcare sector, we offer a range of certified paramedical programs designed to equip students with both theoretical knowledge and practical skills.
 
@@ -103,7 +182,7 @@
                     <div class="col-lg-6">
                         <div class="sec-title">
                             {{-- <div class="sub-title primary">Top Courses</div> --}}
-                            <h2 class="title mb-0 primary-text-blue-color">Our Courses</h2>
+                            <h2 class="title mb-0 primary-text-blue-color mt-5">Our Courses</h2>
                         </div>
                     </div>
                 </div>
@@ -171,7 +250,7 @@
                        
                     <div class="courses-item">
                         <div class="img-part">
-                            <img src="/assets/images/courses/anm.webp" alt="">
+                            <img src="/assets/images/courses/anm.png" alt="">
                         </div>
                         <div class="content-part">
                             
@@ -374,58 +453,58 @@
 
         {{-- advisory board --}}
 
-        <div id="rs-team" class="rs-team style1 pb-100 md-pt-64 md-pb-70">
+        <div id="rs-team" class="rs-team style1 pb-100 md-pt-64 md-pb-70" style="background-color: #283450">
             <div class="container">
-                <div class="sec-title mb-50 md-mb-30">
-                    <div class="sub-title primary primary-text-red-color">Team</div>
-                    <h2 class="title mb-0 primary-text-blue-color">Advisory Board</h2>
+                <div class="sec-title mb-50 md-mb-30 p-5">
+                    <div class="sub-title text-white">Team</div>
+                    <h2 class="title mb-0 text-white">Advisory Board</h2>
                 </div>
                 <div class="rs-carousel owl-carousel nav-style2" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
                     <div class="team-item shadow">
                     <img src="/assets/images/board/member5.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
-                                <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >DR. Dipak Dubey ( MD Pathologist )</a></h4>
+                                <h4 class="name mt-5 text-white"><a href="" class="text-white" >DR. Dipak Dubey ( MD Pathologist )</a></h4>
                         </div> 
                     </div>
                     <div class="team-item shadow">
                     <img src="/assets/images/board/member1.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
-                                <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >Dr. Rohit Agrwal ( MD Medicine)</a></h4>
+                                <h4 class="name mt-5 text-white"><a href="" class="text-white" >Dr. Rohit Agrwal ( MD Medicine)</a></h4>
                            
                         </div> 
                     </div>
                     <div class="team-item shadow">
                     <img src="/assets/images/board/member2.jpg" alt="" style="height: 350px;object-fit:cover;">
                             <div class="">
-                                <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >Dr. Sandip Tiwari ( MBBS.MS)</a></h4>
+                                <h4 class="name mt-5 text-white"><a href="" class="text-white" >Dr. Sandip Tiwari ( MBBS.MS)</a></h4>
                            
                         </div> 
                     </div>
                     <div class="team-item shadow">
                         <img src="/assets/images/board/member4.jpg" alt="" style="height: 350px;object-fit:cover;">
                                 <div class="">
-                                    <h4 class="name mt-2 primary-text-blue-color"><a href="" class="primary-text-blue-color" >DR. Akash Sharma ( Orthopeadics Surgen )</a></h4>
+                                    <h4 class="name mt-5 text-white"><a href="" class="text-white" >DR. Akash Sharma ( Orthopeadics Surgen )</a></h4>
                                
                             </div> 
                         </div>
                         <div class="team-item shadow">
                             <img src="/assets/images/board/member6.jpg" alt="" style="height: 350px;object-fit:cover;">
                                     <div class="">
-                                        <h4 class="name mt-2 primary-text-blue-color"><a class="primary-text-blue-color"  href="">Dr. Anupam Chaudhry ( DM Cardiologist )</a></h4>
+                                        <h4 class="name mt-5 text-white"><a class="text-white"  href="">Dr. Anupam Chaudhry ( DM Cardiologist )</a></h4>
                                    
                                 </div> 
                             </div>
                             <div class="team-item shadow">
                                 <img src="/assets/images/board/member7.jpg" alt="" style="height: 350px;object-fit:cover;">
                                         <div class="">
-                                            <h4 class="primary-text-blue-color name mt-2"><a  class="primary-text-blue-color" href="">डॉ अरविंद पंडित (state devlopment officer)</a></h4>
+                                            <h4 class="text-white name mt-5"><a  class="text-white" href="">डॉ अरविंद पंडित (state devlopment officer)</a></h4>
                                        
                                     </div> 
                                 </div>
                                 <div class="team-item shadow">
                                     <img src="/assets/images/board/member8.jpg" alt="" style="height: 350px;object-fit:cover;">
                                             <div class="">
-                                                <h4 class="name primary-text-blue-color mt-2"><a href="" class="primary-text-blue-color" >
+                                                <h4 class="name text-white mt-5"><a href="" class="text-white" >
                                                     श्री शंभु सिंह ( state public relation officer)
                                                 </a></h4>
                                            
@@ -434,7 +513,7 @@
                                     <div class="team-item shadow">
                                         <img src="/assets/images/board/member9.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                 <div class="">
-                                                    <h4 class="primary-text-blue-color name mt-2"><a class="primary-text-blue-color"  href="">
+                                                    <h4 class="text-white name mt-5"><a class="text-white"  href="">
                                                         डॉ मेहता जी ( state coardinator)
                                                     </a></h4>
                                                
@@ -443,7 +522,7 @@
                                         <div class="team-item shadow">
                                             <img src="/assets/images/board/member10.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                     <div class="">
-                                                        <h4 class="primary-text-blue-color name mt-2"><a class="primary-text-blue-color"  href="">
+                                                        <h4 class="text-white name mt-5"><a class="text-white"  href="">
                                                             बलिराम जी ( district coardinator)
                                                         </a></h4>
                                                    
@@ -452,7 +531,7 @@
                                             <div class="team-item shadow">
                                                 <img src="/assets/images/board/member11.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                         <div class="">
-                                                            <h4 class="primary-text-blue-color name mt-2"><a href="" class="primary-text-blue-color" >
+                                                            <h4 class="text-white name mt-5"><a href="" class="text-white" >
                                                                 श्री दीपेंद्र जी ( सलाहकार)
                                                             </a></h4>
                                                        
@@ -483,23 +562,72 @@
 
         {{-- our affiliate account start --}}
 
-        <div class="my-5">
+        {{-- <div class="my-5" style="">
            
-            <div class="container text-center">
+            <div class="container text-center" >
                 <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
                     <h2 class="title mb-16 md-mb-10 primary-text-blue-color">Our Affiliate Institutes</h2>
                     <div class="desc">
-                        <!-- We are now accepting applications for the upcoming academic session 2024-25. Join a vibrant learning community with expert faculty, modern infrastructure, and career-driven programs. Don't miss your chance!  -->
                     </div>
                 </div>
                
             </div>
+        </div> --}}
+
+        <div class="py-5" style="background-color: #283450;">
+            <div class="container text-center">
+                <div class="sec-title mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                    <h2 class="title mb-3 text-white">Our Affiliate Institutes</h2>
+                </div>
+        
+                <div class="row justify-content-center g-4">
+                    <!-- First Card -->
+                    <div class="col-md-5">
+                        <div class="card rounded-4" style="">
+                            <img src="/assets/images/courses/team_2.jpg" alt="Institute 1"
+                                class="card-img-top rounded-top-4" style="margin-top:20px;height: 300px; object-fit: contain;">
+                            <div class="mt-3">
+                                <div>
+                                    <h5 class="mb-0">Krishnayan Institute of Medical Science</h5>
+                                    {{-- <p class=""> --}}
+                                        <strong>Address:</strong> SM College Front, Swastik Tower, 1st Floor,<br>
+                                        Khanjarpur, Bhagalpur - 812001
+                                    {{-- </p> --}}
+                                    <p class=""><strong>Phone:</strong> 9955224626</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Second Card -->
+                    <div class="col-md-5">
+                        <div class="card rounded-4" style="">
+                            <img src="/assets/images/courses/affiliate.jpeg" alt="Institute 2"
+                                class="card-img-top rounded-top-4" style="margin-top:20px;height: 300px; object-fit: contain;">
+                            <div class="mt-3">
+                                <div>
+                                    <h5 class="mb-0">Krishnayan Institute of Medical Science</h5>
+                                    {{-- <p class=""> --}}
+                                        <strong>Address:</strong> Kewai Road, Islampur, Nalanda,<br>
+                                        Bihar - 801303
+                                    {{-- </p> --}}
+                                    <p class=""><strong>Phone:</strong> 99342 41304</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        
+        
+        
 
         {{-- our affiliate account end --}}
 
         <!-- Testimonial Section Start -->
-        <div class="rs-testimonial style4 pt-100 pb-100 md-pt-70 md-pb-70">
+        <div class="rs-testimonial style4 pt-100 pb-100 md-pt-70 md-pb-70" style="background-color: #E6F4FA">
             <div class="container relative">
                 <div class="left-top-shape js-tilt">
                     <img src="/assets/images/shape/circle-shape.png" alt="">
@@ -633,13 +761,13 @@
                 });
             </script>
         @endif
-        <section class="py-5" style="background-color: #E6F4FA;">
+        <section class="py-5" style="background-color: #283450;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-5">
                         <div class="col-lg-12 text-center mb-4">
-                            <h2 class="fw-bold primary-text-blue-color">🎓 Verify Your Certificate Verification</h2>
-                            <p class="text-muted">Enter your enrollment ID to check your approval status.</p>
+                            <h2 class="fw-bold text-white">🎓 Verify Your Certificate Verification</h2>
+                            <p class="text-white">Enter your enrollment ID to check your approval status.</p>
                         </div>
             
                         <div class="col-md-12">
@@ -656,8 +784,8 @@
                   
                     <div class="col-md-6">
                         <div class="col-lg-12 text-center mb-4">
-                            <h2 class="fw-bold primary-text-blue-color">🎓 Verify Your Admisssion Verification</h2>
-                            <p class="text-muted">Enter your enrollment ID to check your approval status.</p>
+                            <h2 class="fw-bold text-white">🎓 Verify Your Admisssion Verification</h2>
+                            <p class="text-white">Enter your enrollment ID to check your approval status.</p>
                         </div>
             
                         <div class="col-md-12">
@@ -723,6 +851,7 @@
                 </div>
             @endif
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 @endsection
 
