@@ -46,6 +46,35 @@
         }
     }
 
+
+    .facility {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    .text-section {
+      flex: 1 1 500px;
+      background: #59c4ff;
+      padding: 30px;
+      border-radius: 12px;
+      color: #000;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .text-section h2 {
+      color: red;
+    }
+    .image-section {
+      flex: 1 1 300px;
+    }
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
     
 </style>
     <div class="main-content">
@@ -497,7 +526,7 @@
                             <div class="team-item shadow">
                                 <img src="/assets/images/board/member7.jpg" alt="" style="height: 350px;object-fit:cover;">
                                         <div class="">
-                                            <h4 class="text-white name mt-5"><a  class="text-white" href="">डॉ अरविंद पंडित (state devlopment officer)</a></h4>
+                                            <h4 class="text-white name mt-5"><a  class="text-white" href=""> Dr. Arvind Pandit (state devlopment officer)</a></h4>
                                        
                                     </div> 
                                 </div>
@@ -505,7 +534,7 @@
                                     <img src="/assets/images/board/member8.jpg" alt="" style="height: 350px;object-fit:cover;">
                                             <div class="">
                                                 <h4 class="name text-white mt-5"><a href="" class="text-white" >
-                                                    श्री शंभु सिंह ( state public relation officer)
+                                                    Shri Shambhu Singh ( state public relation officer)
                                                 </a></h4>
                                            
                                         </div> 
@@ -514,7 +543,7 @@
                                         <img src="/assets/images/board/member9.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                 <div class="">
                                                     <h4 class="text-white name mt-5"><a class="text-white"  href="">
-                                                        डॉ मेहता जी ( state coardinator)
+                                                        Dr. Mehta Ji ( state coardinator)
                                                     </a></h4>
                                                
                                             </div> 
@@ -523,7 +552,7 @@
                                             <img src="/assets/images/board/member10.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                     <div class="">
                                                         <h4 class="text-white name mt-5"><a class="text-white"  href="">
-                                                            बलिराम जी ( district coardinator)
+                                                            Baliram  ( district coardinator)
                                                         </a></h4>
                                                    
                                                 </div> 
@@ -532,7 +561,7 @@
                                                 <img src="/assets/images/board/member11.jpg" alt="" style="height: 350px;object-fit:cover;">
                                                         <div class="">
                                                             <h4 class="text-white name mt-5"><a href="" class="text-white" >
-                                                                श्री दीपेंद्र जी ( सलाहकार)
+                                                                Shri Dipendra (Advisor)
                                                             </a></h4>
                                                        
                                                     </div> 
@@ -574,6 +603,30 @@
             </div>
         </div> --}}
 
+        <div class="facility">
+            <h1>कृष्णायन इंस्टीट्यूट ऑफ मेडिकल साइंस ऑनलाइन क्लास के लिए निशुल्क टैब दिया जाएगा</h1>
+            <div class="text-section">
+              <h2>कोर्स के साथ निःशुल्क मिलने वाली सुविधाएँ</h2>
+              <ol>
+                <li>ऑनलाइन क्लासेज की सुविधायें</li>
+                <li>100% जॉब असिस्टेंट की सुविधायें</li>
+                <li>MBBS & MD डॉक्टरों से प्रशिक्षण</li>
+                <li>फार्मासिस्ट के द्वारा दवाओं का प्रशिक्षण</li>
+                <li>व्यक्तित्व विकास का प्रशिक्षण</li>
+                <li>इंग्लिश स्पीकिंग कोर्स की सुविधायें</li>
+                <li>डिजिटल क्लासरूम</li>
+                <li>100% पावर बैकअप</li>
+                <li>लाइब्रेरी की सुविधायें</li>
+                <li>समय समय पर अस्पताल विजिट</li>
+                <li>समय समय पर हेल्थ चेकअप मेला</li>
+                <li>समय समय पर डोर टू डोर हेल्थ सर्वे</li>
+              </ol>
+            </div>
+            <div class="image-section">
+              <img src="{{asset('assets/images/courses/womenkims.png')}}" alt="Doctor Info Graphic">
+            </div>
+        </div>
+
         <div class="py-5" style="background-color: #283450;">
             <div class="container text-center">
                 <div class="sec-title mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
@@ -608,7 +661,7 @@
                                 <div>
                                     <h5 class="mb-0">Krishnayan Institute of Medical Science</h5>
                                     {{-- <p class=""> --}}
-                                        <strong>Address:</strong> Kewai Road, Islampur, Nalanda,<br>
+                                        <strong>Address:</strong> Islampur, Nalanda,<br>
                                         Bihar - 801303
                                     {{-- </p> --}}
                                     <p class=""><strong>Phone:</strong> 99342 41304</p>

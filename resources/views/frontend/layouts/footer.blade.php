@@ -224,7 +224,7 @@
             <div class="row y-middle">
                 <div class="col-lg-4 md-mb-20">
                     <div class="footer-logo md-text-center">
-                        <a href=""><img src="/assets/images/logo.jpg" alt="KIMS Logo" class="footer_logo"></a>
+                        <a href=""><img src="/assets/images/kims.jpg" alt="KIMS Logo" class="footer_logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 md-mb-20">

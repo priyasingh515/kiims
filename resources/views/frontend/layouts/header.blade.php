@@ -180,11 +180,11 @@
             <div class="menu-area menu-sticky" id="navbar">
                 <div class="logo-part d-none d-lg-block">
                     <a class="light-logo d-none" href="{{url('/')}}">
-                        <img class="navbar_logo d-none" src="{{asset('/assets/images/logo.jpg')}}" alt="KIMS Logo"
+                        <img class="navbar_logo d-none" src="{{asset('/assets/images/kims.jpg')}}" alt="KIMS Logo"
                             style="height: 100px !important; width: auto;max-height:80px !important;">
                     </a>
                     <a class="small-logo" href="{{url('/')}}">
-                        <img class="logo" src="{{asset('/assets/images/logo.jpg')}}" alt="KIMS logo">
+                        <img class="logo" src="{{asset('/assets/images/kims.jpg')}}" alt="KIMS logo">
                     </a>
                 </div>
                 <div class="container">

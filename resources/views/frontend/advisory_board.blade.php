@@ -82,7 +82,7 @@
                         <div class="team-item">
                             <img src="/assets/images/board/member7.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
-                                <h4 class="name"><a href="">डॉ अरविंद पंडित (state devlopment officer)
+                                <h4 class="name"><a href="">Dr. Arvind Pandit (state devlopment officer)
                                 </a></h4>
                               
                             </div>
@@ -93,7 +93,7 @@
                         <div class="team-item">
                             <img src="/assets/images/board/member8.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
-                                <h4 class="name"><a href="">श्री शंभु सिंह ( state public relation officer)
+                                <h4 class="name"><a href="">Shri Shambhu Singh ( state public relation officer)
                                 </a></h4>
                               
                             </div>
@@ -104,7 +104,7 @@
                         <div class="team-item">
                             <img src="/assets/images/board/member9.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
-                                <h4 class="name"><a href="">डॉ मेहता जी ( state coardinator)
+                                <h4 class="name"><a href="">Dr. Mehta ( state coardinator)
                                 </a></h4>
                               
                             </div>
@@ -114,8 +114,7 @@
                     <div class="col-lg-4 col-sm-6 mb-30">
                         <div class="team-item">
                             <img src="/assets/images/board/member10.jpg" alt="" style="height: 400px;">
-                            <div class="content-part">
-                                <h4 class="name"><a href="">बलिराम जी ( district coardinator)
+                            <div class="content-part">Baliram ( district coardinator)
                                 </a></h4>
                               
                             </div>
@@ -126,7 +125,7 @@
                         <div class="team-item">
                             <img src="/assets/images/board/member11.jpg" alt="" style="height: 400px;">
                             <div class="content-part">
-                                <h4 class="name"><a href="">श्री दीपेंद्र जी ( सलाहकार)
+                                <h4 class="name"><a href="">Shri Dipendra( Advisor)
                                 </a></h4>
                               
                             </div>
