@@ -240,87 +240,87 @@ background-color:#263658 !important;
   background-repeat: no-repeat;
 }
 .bg1 {
-  background: url(/assets/images/bg/bg1.png);
+  background: url(/public/assets/images/bg/bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg2 {
-  background: url(/assets/images/bg/bg2.jpg);
+  background: url(/public/assets/images/bg/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg3 {
-  background: url(/assets/images/bg/bg3.png);
+  background: url(/public/assets/images/bg/bg3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .bg4 {
-  background: url(/assets/images/bg/home6/bg.png);
+  background: url(/public/assets/images/bg/home6/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg5 {
-  background: url(/assets/images/bg/home7/bg.png);
+  background: url(/public/assets/images/bg/home7/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
 }
 .bg6 {
-  background: url(/assets/images/bg/home-8-bg.jpg);
+  background: url(/public/assets/images/bg/home-8-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg7 {
-  background: url(/assets/images/bg/home8-bg2.jpg);
+  background: url(/public/assets/images/bg/home8-bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg8 {
-  background: url(/assets/images/bg/home12/dotted.png);
+  background: url(/public/assets/images/bg/home12/dotted.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 50px 0 50px;
 }
 .bg9 {
-  background: url(/assets/images/bg/home13/counter-bg.jpg);
+  background: url(/public/assets/images/bg/home13/counter-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg10 {
-  background: url(/assets/images/bg/home13/logo-bg.jpg);
+  background: url(/public/assets/images/bg/home13/logo-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg11 {
-  background: url(/assets/images/bg/home13/subscribe-bg.jpg);
+  background: url(/public/assets/images/bg/home13/subscribe-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .bg12 {
-  background: url(/assets/images/bg/home13/footer-bg.jpg);
+  background: url(/public/assets/images/bg/home13/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bg13 {
-  background: url(/assets/images/bg/video-text-bg15.jpg);
+  background: url(/public/assets/images/bg/video-text-bg15.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 60px 140px 60px;
 }
 .course-shape-bg {
-  background: url(/assets/images/bg/course-shape-bg.jpg);
+  background: url(/public/assets/images/bg/course-shape-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4091,7 +4091,7 @@ body .modal-backdrop {
 }
 .rs-banner.style4 {
  /* background: url(/public/assets/images/banner/home4.jpg); */
-  background: url(/assets/images/slider_image.jpg); 
+  background: url(/public/assets/images/home_slider.png); 
   background-size: cover;
   background-position: center;
   min-height: 600px !important;
@@ -4864,13 +4864,13 @@ height:500px;
   margin-bottom: 65px;
 }
 .rs-slider.main-home .slider-content.slide1 {
-  background: url(/assets/images/slider/main-home/1.jpg);
+  background: url(assets/images/slider/main-home/1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .rs-slider.main-home .slider-content.slide2 {
-  background: url(/assets/images/slider/main-home/2.jpg);
+  background: url(assets/images/slider/main-home/2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6223,7 +6223,7 @@ height:500px;
 ---------------------------------------*/
 .rs-popular-courses.style1 .courses-item {
   padding: 30px;
-  height: 430px;
+  height: 400px;
   border: 1px solid #626566;
   border-radius: 5px;
   background-color: #203344;
@@ -6262,11 +6262,10 @@ height:500px;
 .rs-popular-courses.style1 .courses-item .content-part .title {
   font-size: 22px;
   background-color: #fff;
-  padding: 6px 31px;
+  padding: 6px 13px;
   height: 63px;
 }
 .rs-popular-courses.style1 .courses-item .content-part .title a {
-  /* color: #fff; */
   color: #000;
 }
 .rs-popular-courses.style1 .courses-item .content-part .bottom-part {
@@ -13950,7 +13949,7 @@ height:500px;
   color: #ffffff;
 }
 .contact-page-section .rs-contact-box .address-item .address-text .des a:hover {
-  color: #ff5421;
+  color: #000;
 }
 .contact-page-section .rs-contact-wrap {
   padding: 40px 35px 30px 35px;
